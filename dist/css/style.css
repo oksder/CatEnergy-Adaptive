@@ -144,3 +144,46 @@ input[type="radio"].visually-hidden {
     z-index: -1;
   }
 }
+
+.catalog-choice {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.catalog-choice__item {
+  padding: 25px 32px 21px 19px;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+}
+
+.catalog-choice__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+@media (min-width: 708px) {
+  .catalog-choice {
+    width: 708px;
+    margin: 0 auto;
+  }
+  .catalog-choice__item {
+    padding: 60px 60px 60px 50px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1220px) {
+  .catalog-choice {
+    width: 1220px;
+  }
+  .catalog-choice__item {
+    width: 480px;
+    padding: 63px 50px;
+    margin: 0;
+  }
+  .catalog-choice__list {
+    display: flex;
+    justify-content: space-between;
+  }
+}

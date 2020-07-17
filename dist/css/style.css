@@ -32,3 +32,42 @@ input[type="radio"].visually-hidden {
   clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header__logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav__list {
+  list-style: none;
+}
+
+@media (min-width: 708px) {
+  .page-header {
+    display: flex;
+    flex-direction: row;
+  }
+  .page-header-logo {
+    width: 196px;
+  }
+  .main-nav__list {
+    display: flex;
+    justify-content: space-between;
+    width: 466px;
+  }
+}
+
+@media (min-width: 1220px) {
+  .page-header__logo {
+    height: 218px;
+  }
+  .main-nav__list {
+    width: 524px;
+    margin: 71px 0 0 518px;
+  }
+}

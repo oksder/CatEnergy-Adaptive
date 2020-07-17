@@ -80,6 +80,67 @@ input[type="radio"].visually-hidden {
 @media (min-width: 1220px) {
   .main-nav {
     width: 524px;
-    margin: 71px 0 0 518px;
+    margin: auto;
+  }
+}
+
+.food-choice {
+  position: relative;
+  text-align: center;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.food-choice__title {
+  padding: 25px 15px;
+}
+
+.food-choice__background {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+@media (min-width: 708px) {
+  .food-choice {
+    width: 708px;
+  }
+  .food-choice__wrapper {
+    text-align: left;
+  }
+  .food-chioce__image {
+    width: 709px;
+    height: 609px;
+  }
+  .food-choice__background {
+    display: none;
+  }
+}
+
+@media (min-width: 1220px) {
+  .food-choice {
+    position: relative;
+    width: 1220px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .food-choice__wrapper {
+    text-align: left;
+    width: 426px;
+    margin-left: 74px;
+  }
+  .food-chioce__image {
+    width: 552px;
+    height: 499px;
+  }
+  .food-choice__background {
+    position: absolute;
+    display: block;
+    width: 720px;
+    height: 696px;
+    right: 0;
+    top: 0;
+    z-index: -1;
   }
 }

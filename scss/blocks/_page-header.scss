@@ -8,9 +8,6 @@
   justify-content: space-between;
 }
 
-.main-nav__list {
-  list-style: none;
-}
 
 @media (min-width: $tablet-width) {
   .page-header {
@@ -21,21 +18,10 @@
   .page-header-logo{
     width: 196px;
   }
-
-  .main-nav__list {
-    display: flex;
-    justify-content: space-between;
-    width: 466px;
-  }
 }
 
 @media (min-width: $desktop-width) {
   .page-header__logo {
     height: 218px;
-  }
-
-  .main-nav__list {
-    width: 524px;
-    margin: 71px 0 0 518px;
   }
 }

@@ -1,0 +1,25 @@
+.main-nav {
+  width: 453px;
+  margin: 0 auto;
+}
+
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav__list {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav {
+    width: 524px;
+    margin: 71px 0 0 518px;
+  }
+}

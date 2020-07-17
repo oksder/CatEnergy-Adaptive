@@ -277,3 +277,35 @@ input[type="radio"].visually-hidden {
     width: 443px;
   }
 }
+
+.page-footer {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.page-footer__contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+@media (min-width: 708px) {
+  .page-footer {
+    width: 768px;
+  }
+  .page-footer__social {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1220px) {
+  .page-footer {
+    width: 1440px;
+  }
+}

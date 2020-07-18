@@ -43,7 +43,7 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
 }
 
-@media (min-width: 708px) {
+@media (min-width: 768px) {
   .page-header {
     display: flex;
     flex-direction: row;
@@ -53,7 +53,7 @@ input[type="radio"].visually-hidden {
   }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1440px) {
   .page-header__logo {
     height: 218px;
   }
@@ -70,14 +70,14 @@ input[type="radio"].visually-hidden {
   list-style: none;
 }
 
-@media (min-width: 708px) {
+@media (min-width: 768px) {
   .main-nav__list {
     display: flex;
     justify-content: space-between;
   }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1440px) {
   .main-nav {
     width: 524px;
     margin: auto;
@@ -102,7 +102,7 @@ input[type="radio"].visually-hidden {
   z-index: -1;
 }
 
-@media (min-width: 708px) {
+@media (min-width: 768px) {
   .food-choice {
     width: 708px;
   }
@@ -118,7 +118,7 @@ input[type="radio"].visually-hidden {
   }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1440px) {
   .food-choice {
     position: relative;
     width: 1220px;
@@ -162,7 +162,7 @@ input[type="radio"].visually-hidden {
   list-style: none;
 }
 
-@media (min-width: 708px) {
+@media (min-width: 768px) {
   .catalog-choice {
     width: 708px;
     margin: 0 auto;
@@ -173,7 +173,7 @@ input[type="radio"].visually-hidden {
   }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1440px) {
   .catalog-choice {
     width: 1220px;
   }
@@ -200,7 +200,7 @@ input[type="radio"].visually-hidden {
   list-style: none;
 }
 
-@media (min-width: 708px) {
+@media (min-width: 768px) {
   .advantages {
     width: 708px;
     margin: 0 auto;
@@ -215,7 +215,7 @@ input[type="radio"].visually-hidden {
   }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1440px) {
   .advantages {
     width: 1220px;
     margin: 0 auto;
@@ -250,7 +250,7 @@ input[type="radio"].visually-hidden {
   text-align: center;
 }
 
-@media (min-width: 708px) {
+@media (min-width: 768px) {
   .example {
     width: 708px;
     margin: 0 auto;
@@ -264,7 +264,7 @@ input[type="radio"].visually-hidden {
   }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1440px) {
   .example {
     width: 1220px;
   }
@@ -294,7 +294,7 @@ input[type="radio"].visually-hidden {
   list-style: none;
 }
 
-@media (min-width: 708px) {
+@media (min-width: 768px) {
   .page-footer {
     width: 768px;
   }
@@ -304,8 +304,8 @@ input[type="radio"].visually-hidden {
   }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1440px) {
   .page-footer {
-    width: 1220px;
+    width: 1440px;
   }
 }

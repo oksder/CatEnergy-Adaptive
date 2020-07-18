@@ -60,7 +60,7 @@ input[type="radio"].visually-hidden {
 }
 
 .main-nav {
-  width: 280px;
+  width: 320px;
   margin: 0 auto;
 }
 
@@ -87,7 +87,7 @@ input[type="radio"].visually-hidden {
 .food-choice {
   position: relative;
   text-align: center;
-  width: 280px;
+  width: 320px;
   margin: 0 auto;
 }
 
@@ -229,7 +229,7 @@ input[type="radio"].visually-hidden {
 }
 
 .example {
-  width: 280px;
+  width: 320px;
   margin: 0 auto;
 }
 
@@ -306,6 +306,6 @@ input[type="radio"].visually-hidden {
 
 @media (min-width: 1220px) {
   .page-footer {
-    width: 1440px;
+    width: 1220px;
   }
 }

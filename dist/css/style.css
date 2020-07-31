@@ -34,33 +34,23 @@ input[type="radio"].visually-hidden {
 }
 
 .page-header {
-  display: flex;
-  flex-direction: column;
-}
-
-.page-header__logo {
-  display: flex;
-  justify-content: space-between;
+  width: 320px;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) {
   .page-header {
-    display: flex;
-    flex-direction: row;
-  }
-  .page-header-logo {
-    width: 196px;
+    width: 708px;
   }
 }
 
 @media (min-width: 1440px) {
-  .page-header__logo {
-    height: 218px;
+  .page-header {
+    width: 1220px;
   }
 }
 
 .main-nav {
-  width: 320px;
   margin: 0 auto;
 }
 

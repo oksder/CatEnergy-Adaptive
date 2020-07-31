@@ -169,6 +169,14 @@ input[type="radio"].visually-hidden {
   .main-nav {
     width: 1220px;
   }
+  .page-header__logo-text--tablet {
+    display: none;
+  }
+  .page-header__logo-text--desktop {
+    display: block;
+    width: 202px;
+    margin-top: 53px;
+  }
 }
 
 .site-list {
@@ -177,7 +185,7 @@ input[type="radio"].visually-hidden {
 
 .site-list a {
   display: block;
-  padding: 25px 0;
+  padding: 46px 0;
   font-size: 20px;
   line-height: 20px;
   text-align: center;
@@ -219,7 +227,7 @@ input[type="radio"].visually-hidden {
     content: "";
     position: absolute;
     right: 0;
-    bottom: 10px;
+    bottom: 35px;
     left: 0;
     height: 2px;
     background: #68b738;

@@ -135,4 +135,15 @@
   .main-nav {
     width: 1220px;
   }
+
+
+  .page-header__logo-text--tablet {
+    display: none;
+  }
+
+  .page-header__logo-text--desktop {
+    display: block;
+    width: 202px;
+    margin-top: 53px;
+  }
 }

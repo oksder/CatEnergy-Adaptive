@@ -9,7 +9,7 @@
   padding: 25px 15px;
 }
 
-.food-choice__background {
+.food-choice__background--mobile {
   position: absolute;
   right: 0;
   top: 0;
@@ -55,13 +55,17 @@
     height: 499px;
   }
 
-  .food-choice__background {
+  .food-choice__background--mobile {
+  display: none;
+}
+
+  .food-choice__background--desktop {
     position: absolute;
     display: block;
     width: 720px;
     height: 696px;
     right: 0;
-    top:0;
+    top: -70px;
     z-index: -1;
   }
 }

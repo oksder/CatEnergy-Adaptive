@@ -236,7 +236,7 @@ input[type="radio"].visually-hidden {
 
 @media (min-width: 1440px) {
   .site-list {
-    width: 521px;
+    width: 522px;
   }
   .site-list__item {
     margin-right: 0;
@@ -244,7 +244,16 @@ input[type="radio"].visually-hidden {
   .site-list__item a {
     padding-right: 18px;
     padding-left: 18px;
+    padding-top: 77px;
+    color: #ffffff;
     background-color: transparent;
+  }
+  .site-list__item {
+    margin-right: 32px;
+  }
+  .site-list__item::after {
+    content: "";
+    background: #ffffff;
   }
 }
 

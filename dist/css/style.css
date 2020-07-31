@@ -38,15 +38,51 @@ input[type="radio"].visually-hidden {
   margin: 0 auto;
 }
 
+.page-header__logo-icon--mobile {
+  display: inline-flex;
+  margin: 10px 57px 16px 0;
+}
+
+.page-header__logo-text--mobile {
+  margin-bottom: 25px;
+}
+
+.page-header__logo-text--tablet {
+  display: none;
+}
+
+.page-header__logo-text--desktop {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .page-header {
     width: 708px;
+  }
+  .page-header__logo-icon--mobile {
+    display: none;
+  }
+  .page-header__logo-text--mobile {
+    display: none;
+  }
+  .page-header__logo-text--tablet {
+    display: block;
+    width: 173px;
+    margin: 25px 94px 0 0;
   }
 }
 
 @media (min-width: 1440px) {
   .page-header {
     width: 1220px;
+  }
+  .page-header__logo-text--tablet {
+    display: none;
+  }
+  .page-header__logo-text--desktop {
+    display: block;
+    width: 202px;
+    margin-top: -20px;
   }
 }
 
@@ -66,23 +102,6 @@ input[type="radio"].visually-hidden {
   background-color: #ffffff;
   cursor: pointer;
   border: none;
-}
-
-.page-header__logo-icon--mobile {
-  display: inline-flex;
-  margin: 10px 57px 16px 0;
-}
-
-.page-header__logo-text--mobile {
-  margin-bottom: 25px;
-}
-
-.page-header__logo-text--tablet {
-  display: none;
-}
-
-.page-header__logo-text--desktop {
-  display: none;
 }
 
 .main-nav--closed .main-nav__toggle::before {
@@ -149,17 +168,6 @@ input[type="radio"].visually-hidden {
     width: 708px;
     margin: 0 auto;
   }
-  .page-header__logo-icon--mobile {
-    display: none;
-  }
-  .page-header__logo-text--mobile {
-    display: none;
-  }
-  .page-header__logo-text--tablet {
-    display: block;
-    width: 173px;
-    margin: 25px 94px 0 0;
-  }
   .main-nav__toggle {
     display: none;
   }
@@ -168,14 +176,7 @@ input[type="radio"].visually-hidden {
 @media (min-width: 1440px) {
   .main-nav {
     width: 1220px;
-  }
-  .page-header__logo-text--tablet {
-    display: none;
-  }
-  .page-header__logo-text--desktop {
-    display: block;
-    width: 202px;
-    margin-top: 53px;
+    margin-top: 77px;
   }
 }
 
@@ -243,7 +244,7 @@ input[type="radio"].visually-hidden {
     margin-right: 0;
   }
   .site-list__item a {
-    padding-top: 77px;
+    padding: 0;
     color: #ffffff;
     background-color: transparent;
   }
@@ -253,6 +254,12 @@ input[type="radio"].visually-hidden {
   .site-list__item::after {
     content: "";
     background: #ffffff;
+  }
+  .site-list a[href]:hover {
+    color: #c1dcb1;
+  }
+  .site-list a[href]:active a[href] {
+    color: #94c377;
   }
 }
 
@@ -318,7 +325,7 @@ input[type="radio"].visually-hidden {
     width: 720px;
     height: 696px;
     right: 0;
-    top: -70px;
+    top: -130px;
     z-index: -1;
   }
 }

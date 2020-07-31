@@ -76,8 +76,7 @@
   }
 
   .site-list__item a {
-    padding-top: 77px;
-
+    padding: 0;
     color: #ffffff;
     background-color: transparent;
   }
@@ -91,4 +90,14 @@
         background: #ffffff;
       }
     }
+
+  .site-list a[href] {
+    &:hover {
+      color: #c1dcb1;
+    }
+
+    &:active a[href]{
+      color: #94c377;
+    }
+  }
 }

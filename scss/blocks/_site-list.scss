@@ -68,6 +68,7 @@
 @media (min-width: $desktop-width) {
   .site-list {
     width: 522px;
+    margin-right: 110px;
   }
 
   .site-list__item {
@@ -75,8 +76,6 @@
   }
 
   .site-list__item a {
-    padding-right: 18px;
-    padding-left: 18px;
     padding-top: 77px;
 
     color: #ffffff;

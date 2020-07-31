@@ -237,13 +237,12 @@ input[type="radio"].visually-hidden {
 @media (min-width: 1440px) {
   .site-list {
     width: 522px;
+    margin-right: 110px;
   }
   .site-list__item {
     margin-right: 0;
   }
   .site-list__item a {
-    padding-right: 18px;
-    padding-left: 18px;
     padding-top: 77px;
     color: #ffffff;
     background-color: transparent;

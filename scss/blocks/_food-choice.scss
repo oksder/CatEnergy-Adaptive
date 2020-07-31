@@ -31,7 +31,11 @@
     height: 609px;
   }
 
-  .food-choice__background {
+  .food-choice__background--mobile {
+    display: none;
+  }
+
+  .food-choice__background--desktop {
     display: none;
   }
 }
@@ -56,7 +60,7 @@
   }
 
   .food-choice__background--mobile {
-  display: none;
+    display: none;
 }
 
   .food-choice__background--desktop {

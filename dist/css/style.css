@@ -285,7 +285,10 @@ input[type="radio"].visually-hidden {
     width: 709px;
     height: 609px;
   }
-  .food-choice__background {
+  .food-choice__background--mobile {
+    display: none;
+  }
+  .food-choice__background--desktop {
     display: none;
   }
 }

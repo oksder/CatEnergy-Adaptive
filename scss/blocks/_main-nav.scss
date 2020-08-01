@@ -93,6 +93,10 @@
     margin-right: 30px;
   }
 
+  .main-nav--closed  .main-nav__list {
+    display: flex;
+  }
+
   .main-nav__wrapper {
     margin: 47px 30px 0 0;
   }

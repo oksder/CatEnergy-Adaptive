@@ -320,7 +320,11 @@ input[type="radio"].visually-hidden {
   z-index: -1;
 }
 
-.food-choice__background--tablet {
+.food-choice__image--tablet {
+  display: none;
+}
+
+.food-chioce__image--mobile {
   display: none;
 }
 
@@ -371,9 +375,13 @@ input[type="radio"].visually-hidden {
   .food-choice__button--mobile {
     display: none;
   }
-  .food-chioce__image {
+  .food-choice__image--tablet {
+    display: block;
     width: 709px;
     height: 609px;
+  }
+  .food-choice__image--desktop {
+    display: none;
   }
   .food-choice__background--mobile {
     display: none;
@@ -398,6 +406,12 @@ input[type="radio"].visually-hidden {
   .food-chioce__image {
     width: 552px;
     height: 499px;
+  }
+  .food-choice__image--tablet {
+    display: none;
+  }
+  .food-choice__image--desktop {
+    display: block;
   }
   .food-choice__background--mobile {
     display: none;

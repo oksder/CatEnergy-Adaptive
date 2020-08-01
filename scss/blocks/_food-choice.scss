@@ -29,7 +29,11 @@
   z-index: -1;
 }
 
-.food-choice__background--tablet {
+.food-choice__image--tablet {
+  display: none;
+}
+
+.food-chioce__image--mobile {
   display: none;
 }
 
@@ -87,9 +91,14 @@
     display: none;
   }
 
-  .food-chioce__image {
+  .food-choice__image--tablet {
+    display: block;
     width: 709px;
     height: 609px;
+  }
+
+  .food-choice__image--desktop {
+    display: none;
   }
 
   .food-choice__background--mobile {
@@ -118,6 +127,14 @@
   .food-chioce__image {
     width: 552px;
     height: 499px;
+  }
+
+  .food-choice__image--tablet {
+    display: none;
+  }
+
+  .food-choice__image--desktop {
+    display: block;
   }
 
   .food-choice__background--mobile {

@@ -112,6 +112,7 @@ input[type="radio"].visually-hidden {
   background-color: #ffffff;
   cursor: pointer;
   border: none;
+  outline: none;
 }
 
 .main-nav--closed .main-nav__toggle::before {

@@ -118,9 +118,23 @@
     justify-content: space-between;
   }
 
+  .food-choice__title {
+    padding: 106px 0 39px 10px;
+  }
+
+  .food-choice__intro {
+    padding: 0;
+    padding-left: 10px;
+  }
+
+  .food-choice__button {
+    left: 85px;
+    top: 380px;
+  }
+
   .food-choice__wrapper {
     text-align: left;
-    width: 426px;
+    width: 417px;
     margin-left: 74px;
   }
 
@@ -135,6 +149,7 @@
 
   .food-choice__image--desktop {
     display: block;
+    margin: 40px 220px 0 0;
   }
 
   .food-choice__background--mobile {
@@ -147,7 +162,7 @@
     width: 720px;
     height: 696px;
     right: -110px;
-    top: -130px;
+    top: -110px;
     z-index: -1;
   }
 }

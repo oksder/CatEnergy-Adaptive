@@ -32,11 +32,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 446px;
+    width: 472px;
   }
 
   .site-list a {
     border-top: none;
+    padding: 0;
   }
 
   .site-list__item {
@@ -54,7 +55,7 @@
 
         position: absolute;
         right: 0;
-        bottom: 35px;
+        bottom: -15px;
         left: 0;
 
         height: 2px;

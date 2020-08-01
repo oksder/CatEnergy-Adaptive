@@ -12,17 +12,18 @@
   margin-bottom: 25px;
 }
 
-.page-header__logo-text--tablet {
+.page-header__logo--tablet {
   display: none;
 }
 
-.page-header__logo-text--desktop {
+.page-header__logo--desktop {
   display: none;
 }
 
 @media (min-width: $tablet-width) {
   .page-header {
-    width: 708px;
+    width: 768px;
+    display: flex;
   }
 
   .page-header__logo-icon--mobile {
@@ -33,10 +34,10 @@
       display: none;
   }
 
-  .page-header__logo-text--tablet {
+  .page-header__logo--tablet {
     display: block;
     width: 173px;
-    margin: 25px 94px 0 0;
+    margin: 25px 94px 0 30px;
   }
 }
 
@@ -45,11 +46,11 @@
     width: 1220px;
   }
 
-  .page-header__logo-text--tablet {
+  .page-header__logo--tablet {
     display: none;
   }
 
-  .page-header__logo-text--desktop {
+  .page-header__logo--desktop {
     display: block;
     width: 202px;
     margin-top: -20px;

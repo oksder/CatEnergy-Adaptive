@@ -47,17 +47,18 @@ input[type="radio"].visually-hidden {
   margin-bottom: 25px;
 }
 
-.page-header__logo-text--tablet {
+.page-header__logo--tablet {
   display: none;
 }
 
-.page-header__logo-text--desktop {
+.page-header__logo--desktop {
   display: none;
 }
 
 @media (min-width: 768px) {
   .page-header {
-    width: 708px;
+    width: 768px;
+    display: flex;
   }
   .page-header__logo-icon--mobile {
     display: none;
@@ -65,10 +66,10 @@ input[type="radio"].visually-hidden {
   .page-header__logo-text--mobile {
     display: none;
   }
-  .page-header__logo-text--tablet {
+  .page-header__logo--tablet {
     display: block;
     width: 173px;
-    margin: 25px 94px 0 0;
+    margin: 25px 94px 0 30px;
   }
 }
 
@@ -76,10 +77,10 @@ input[type="radio"].visually-hidden {
   .page-header {
     width: 1220px;
   }
-  .page-header__logo-text--tablet {
+  .page-header__logo--tablet {
     display: none;
   }
-  .page-header__logo-text--desktop {
+  .page-header__logo--desktop {
     display: block;
     width: 202px;
     margin-top: -20px;
@@ -159,8 +160,11 @@ input[type="radio"].visually-hidden {
   .main-nav {
     display: flex;
     justify-content: space-between;
-    width: 708px;
+    width: 472px;
     margin: 0 auto;
+  }
+  .main-nav__wrapper {
+    margin: 47px 30px 0 0;
   }
   .main-nav__toggle {
     display: none;
@@ -204,10 +208,11 @@ input[type="radio"].visually-hidden {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 446px;
+    width: 472px;
   }
   .site-list a {
     border-top: none;
+    padding: 0;
   }
   .site-list__item {
     margin-right: 32px;
@@ -222,7 +227,7 @@ input[type="radio"].visually-hidden {
     content: "";
     position: absolute;
     right: 0;
-    bottom: 35px;
+    bottom: -15px;
     left: 0;
     height: 2px;
     background: #68b738;

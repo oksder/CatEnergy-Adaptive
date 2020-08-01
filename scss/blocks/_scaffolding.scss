@@ -47,5 +47,11 @@ input[type="radio"].visually-hidden {
   border: none;
   outline: none;
 
+    &:hover {
+      background-color: $dark-green;
+    }
 
+    &:active {
+      color: #81bd5d;
+    }
 }

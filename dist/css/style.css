@@ -44,6 +44,14 @@ input[type="radio"].visually-hidden {
   outline: none;
 }
 
+.button:hover {
+  background-color: #5eaa2f;
+}
+
+.button:active {
+  color: #81bd5d;
+}
+
 .page-header {
   width: 320px;
   margin: 0 auto;

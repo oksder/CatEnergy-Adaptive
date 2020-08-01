@@ -89,7 +89,7 @@
     display: flex;
     justify-content: space-between;
     width: 472px;
-    margin: 0 auto;
+    margin-right: 30px;
   }
 
   .main-nav__wrapper {
@@ -103,7 +103,11 @@
 
 @media (min-width: $desktop-width) {
   .main-nav {
-    width: 1220px;
     margin-top: 77px;
+    background-color: transparent;
+  }
+
+  .main-nav__wrapper {
+    margin: 0;
   }
 }

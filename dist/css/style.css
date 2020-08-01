@@ -69,7 +69,7 @@ input[type="radio"].visually-hidden {
   .page-header__logo--tablet {
     display: block;
     width: 173px;
-    margin: 25px 94px 0 30px;
+    margin: 25px 0 0 30px;
   }
 }
 
@@ -83,7 +83,8 @@ input[type="radio"].visually-hidden {
   .page-header__logo--desktop {
     display: block;
     width: 202px;
-    margin-top: -20px;
+    margin-top: 50px;
+    margin-right: 300px;
   }
 }
 
@@ -161,7 +162,7 @@ input[type="radio"].visually-hidden {
     display: flex;
     justify-content: space-between;
     width: 472px;
-    margin: 0 auto;
+    margin-right: 30px;
   }
   .main-nav__wrapper {
     margin: 47px 30px 0 0;
@@ -173,8 +174,11 @@ input[type="radio"].visually-hidden {
 
 @media (min-width: 1440px) {
   .main-nav {
-    width: 1220px;
     margin-top: 77px;
+    background-color: transparent;
+  }
+  .main-nav__wrapper {
+    margin: 0;
   }
 }
 
@@ -280,6 +284,10 @@ input[type="radio"].visually-hidden {
   z-index: -1;
 }
 
+.food-choice__background--desktop {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .food-choice {
     width: 708px;
@@ -323,7 +331,7 @@ input[type="radio"].visually-hidden {
     display: block;
     width: 720px;
     height: 696px;
-    right: 0;
+    right: -110px;
     top: -130px;
     z-index: -1;
   }

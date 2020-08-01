@@ -33,6 +33,17 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
+.button {
+  font-family: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 7px 73px;
+  background-color: #68b738;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+
 .page-header {
   width: 320px;
   margin: 0 auto;
@@ -278,7 +289,20 @@ input[type="radio"].visually-hidden {
 }
 
 .food-choice__title {
-  padding: 25px 15px;
+  padding: 30px 37px 0 37px;
+  margin: 0;
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.food-choice__intro {
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0;
+  padding: 24px 0 26px 0;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .food-choice__background--mobile {
@@ -290,6 +314,14 @@ input[type="radio"].visually-hidden {
 
 .food-choice__background--desktop {
   display: none;
+}
+
+.food-choice__button {
+  display: none;
+}
+
+.food-choice__button--mobile {
+  width: 280px;
 }
 
 @media (min-width: 768px) {

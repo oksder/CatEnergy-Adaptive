@@ -36,3 +36,16 @@ input[type="radio"].visually-hidden {
 	clip: rect(0, 0, 0, 0);
 	overflow: hidden;
 }
+
+.button {
+  font-family: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 7px 73px;
+  background-color: $green-color;
+  color: #ffffff;
+  border: none;
+  outline: none;
+
+
+}

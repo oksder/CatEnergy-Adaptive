@@ -600,11 +600,37 @@ input[type="radio"].visually-hidden {
   .catalog-choice__item {
     width: 480px;
     padding: 63px 50px;
-    margin: 0;
+    margin: 115px 0 78px 0;
+  }
+  .catalog-choice__description {
+    width: 460px;
+    margin: 25px 0 40px 0;
   }
   .catalog-choice__list {
     display: flex;
     justify-content: space-between;
+  }
+  .catalog-choice__icon--cat {
+    position: relative;
+    right: 0px;
+    top: -15px;
+    margin: 0 77px 0 15px;
+    width: 70px;
+    height: 97px;
+  }
+  .catalog-choice__icon--jaguar {
+    position: relative;
+    right: 10px;
+    top: 0px;
+    margin-right: 40px;
+    width: 134px;
+    height: 56px;
+  }
+  .catalog-choice__item-wrapper::before {
+    left: 50px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
   }
 }
 

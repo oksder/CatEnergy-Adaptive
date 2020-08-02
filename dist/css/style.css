@@ -105,6 +105,12 @@ input[type="radio"].visually-hidden {
     margin-top: 50px;
     margin-right: 300px;
   }
+  .page-header__logo--desktop:hover {
+    opacity: 0.7;
+  }
+  .page-header__logo--desktop:active {
+    opacity: 0.3;
+  }
 }
 
 .main-nav {

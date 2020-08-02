@@ -637,13 +637,69 @@ input[type="radio"].visually-hidden {
 .advantages {
   width: 280px;
   margin: 0 auto;
-  padding: 32px 0 40px 0;
+}
+
+.advantages__title {
+  margin: 0;
+  padding: 15px 0 15px 0;
+  font-size: 36px;
+  line-height: 60px;
 }
 
 .advantages__list {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.advantages__item {
+  padding-top: 20px;
+}
+
+.advantages__item-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages__item-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  background-color: #68b738;
+  z-index: -1;
+}
+
+.advantages__icon--leaf {
+  width: 26px;
+  height: 29px;
+  margin: auto;
+}
+
+.advantages__icon--water {
+  width: 29px;
+  height: 31px;
+  margin: auto;
+}
+
+.advantages__icon--cutlery {
+  width: 23px;
+  height: 30px;
+  margin: auto;
+}
+
+.advantages__icon--clock {
+  width: 26px;
+  height: 31px;
+  margin: auto;
+}
+
+.advantages__description {
+  width: 197px;
+  margin-left: 22px;
 }
 
 @media (min-width: 768px) {

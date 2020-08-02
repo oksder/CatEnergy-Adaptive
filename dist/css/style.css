@@ -640,6 +640,7 @@ input[type="radio"].visually-hidden {
 .advantages {
   width: 280px;
   margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .advantages__title {
@@ -843,6 +844,25 @@ input[type="radio"].visually-hidden {
 .example {
   width: 320px;
   margin: 0 auto;
+  background-color: #f2f2f2;
+}
+
+.example__wrapper {
+  padding: 0 20px;
+}
+
+.example__title {
+  font-size: 36px;
+  line-height: 60px;
+  font-weight: 500;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.example__description {
+  font-family: Arial;
+  margin: 0;
+  padding-bottom: 28px;
 }
 
 .example__list {
@@ -853,13 +873,34 @@ input[type="radio"].visually-hidden {
   margin: 0;
 }
 
+.example__list--wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
 .example__item {
   display: flex;
   flex-direction: column;
+  margin-right: 34px;
+  text-align: center;
+  width: 124px;
+  font-family: Arial;
+}
+
+.example__number {
+  font-family: Oswald;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 24px;
+  padding-bottom: 10px;
 }
 
 .example__amount-spent {
+  display: block;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 25px 0 45px 0;
 }
 
 @media (min-width: 768px) {

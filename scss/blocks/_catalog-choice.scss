@@ -42,11 +42,13 @@
 }
 
 .catalog-choice__icon--cat {
+  width: 35px;
   height: 49px;
   margin: 0 26px 0 10px;
 }
 
 .catalog-choice__icon--jaguar {
+  width: 67px;
   height: 28px;
   margin: 15px 15px 10px -8px;
 }
@@ -109,7 +111,64 @@
 
   .catalog-choice__item{
     padding: 60px 60px 60px 50px;
-    margin-bottom: 30px;
+    margin: 30px 0 30px 0;
+  }
+
+  .catalog-choice__description {
+    width: 308px;
+  }
+
+  .catalog-choice__icon--cat {
+    position: absolute;
+    right: 70px;
+    top: 60px;
+
+    width: 140px;
+    height: 194px;
+  }
+
+  .catalog-choice__icon--jaguar {
+    position: absolute;
+    right: 20px;
+    top: 100px;
+
+    width: 268px;
+    height: 112px;
+  }
+
+  .catalog-choice__title {
+    font-size: 36px;
+    line-height: 37px;
+  }
+
+  .catalog-choice__description {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 25px 0 60px 0;
+  }
+
+  .catalog-choice__button {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .catalog-choice__item-wrapper::before {
+    left: 440px;
+    top: 70px;
+
+    width: 200px;
+    height: 200px;
+
+  }
+
+  .catalog-choice__button::before {
+    display: none;
+  }
+
+  .catalog-choice__arrow {
+    position: absolute;
+    right: -45px;
+    top: 10px;
   }
 }
 

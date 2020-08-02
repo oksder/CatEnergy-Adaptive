@@ -45,36 +45,70 @@
 .advantages__icon--leaf {
   width: 26px;
   height: 29px;
-  margin: auto;
+  margin: 15px 0 0 19px;
 }
 
 .advantages__icon--water {
   width: 29px;
   height: 31px;
-  margin: auto;
+  margin: 15px 0 0 16px;
 }
 
 .advantages__icon--cutlery {
   width: 23px;
   height: 30px;
-  margin: auto;
+  margin: 16px 0 0 19px;
 }
 
 .advantages__icon--clock {
   width: 26px;
   height: 31px;
-  margin: auto;
+  margin: 15px 0 0 18px;
 }
 
 .advantages__description {
   width: 197px;
   margin-left: 22px;
+  font-family: arial;
 }
+
+  .advantages__number--one {
+    display: none;
+  }
+
+  .advantages__number--two {
+    display: none;
+  }
+
+  .advantages__number--three {
+    display: none;
+  }
+
+  .advantages__number--four {
+    display: none;
+  }
 
 @media (min-width: $tablet-width) {
   .advantages {
     width: 708px;
     margin: 0 auto;
+  }
+
+  .advantages__item-wrapper {
+    position: relative;
+    display: block;
+    width: 324px;
+  }
+
+  .advantages__item-wrapper::before {
+    width: 80px;
+    height: 80px;
+  }
+
+  .advantages__title {
+    font-size: 60px;
+    line-height: 60px;
+    padding-bottom: 64px;
   }
 
   .advantages__list {
@@ -84,7 +118,84 @@
   }
 
   .advantages__item {
-    width: 324px;
+    width: 354px;
+    padding: 0;
+  }
+
+  .advantages__description {
+    width: 242px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    padding: 53px 0 138px 0;
+  }
+
+  .advantages__icon--leaf {
+    margin: 25px 0 0 28px;
+  }
+
+  .advantages__icon--water {
+    margin: 22px 0 0 26px;
+  }
+
+  .advantages__icon--cutlery {
+    margin: 25px 0 0 29px;
+  }
+
+  .advantages__icon--clock {
+    margin: 25px 0 0 28px;
+  }
+
+  .advantages__number--one {
+    position: absolute;
+    display: block;
+    left: 120px;
+    bottom: 55px;
+
+    font-size: 281px;
+    line-height: 281px;
+    color: #f2f2f2;
+
+    z-index: -1;
+  }
+
+  .advantages__number--two {
+    position: absolute;
+    display: block;
+    left: 120px;
+    bottom: 75px;
+
+    font-size: 281px;
+    line-height: 281px;
+    color: #f2f2f2;
+
+    z-index: -1;
+  }
+
+  .advantages__number--three {
+    position: absolute;
+    display: block;
+    left: 120px;
+    bottom: 55px;
+
+    font-size: 281px;
+    line-height: 281px;
+    color: #f2f2f2;
+
+    z-index: -1;
+  }
+
+  .advantages__number--four {
+    position: absolute;
+    display: block;
+    left: 120px;
+    bottom: 55px;
+
+    font-size: 281px;
+    line-height: 281px;
+    color: #f2f2f2;
+
+    z-index: -1;
   }
 }
 

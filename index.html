@@ -15,7 +15,7 @@
       <img class="page-header__logo--tablet" src="dist/img/logo-tablet.png" width="173" height="58" alt="Cat Energy Logo">
       <img class="page-header__logo--desktop" src="dist/img/logo-desktop.png" width="202" height="59" alt="Cat Energy Logo">
     </a>
-    <nav class="main-nav main-nav--closed main-nav--nojs">
+    <nav class="main-nav main-nav--closed">
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Open menu</span></button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
@@ -112,9 +112,23 @@
           <b class="example__amount-spent">Amount spent: 15 000 ₽</b>
         </div>
         <div class="example__container">
-          <img class="example__image" src="dist/img/before-slider.png"  width="311" height="232" alt="Cat image before">
-          <img class="example__image" src="dist/img/after-slider.png"  width="251" height="240" alt="Cat image after">
-          <span class="slider"></span>
+          <img class="example__image-before" src="dist/img/before-slider.png"  width="311" height="232" alt="Cat image before">
+          <img class="example__image-after--mobile" src="dist/img/after-slider-mobile.png"  width="251" height="232" alt="Cat image after">
+          <img class="example__image-after--desktop" src="dist/img/after-slider.png"  width="251" height="240" alt="Cat image after">
+        </div>
+        <div class="example__switch-wrapper--mobile">
+          <span class="example__slider--before">Before</span>
+          <label class="example__switch--mobile">
+            <input class="example__switch-input" type="checkbox">
+            <span class="example__slider--mobile"></span>
+          </label>
+          <span class="example__slider--after">After</span>
+        </div>
+
+        <div class="example__slider-wrapper">
+          <span class="example__slider--before">Before</span>
+            <input class="example__slider" id="Range" type="range" min="1" max="2" value="1">
+          <span class="example__slider--after">After</span>
         </div>
       </div>
     </section>
@@ -141,5 +155,6 @@
     </div>
   </footer>
   <script src="dist/js/nav-toggle.js"></script>
+  <script src="dist/js/example-switch.js"></script>
 </body>
 </html>

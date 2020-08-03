@@ -1078,6 +1078,7 @@ input[type="radio"].visually-hidden {
     background-image: url("../img/thumb.png");
     background-repeat: no-repeat;
     cursor: pointer;
+    outline: none;
     z-index: 3;
   }
   .example__slider::-webkit-slider-thumb:active {
@@ -1087,6 +1088,7 @@ input[type="radio"].visually-hidden {
     background-repeat: no-repeat;
     cursor: pointer;
     z-index: 3;
+    outline: none;
   }
   .example__slider-text {
     text-decoration: underline dotted #c5c6c6;

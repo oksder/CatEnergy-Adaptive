@@ -112,9 +112,8 @@
           </div>
         </div>
         <div class="example__container">
-          <img class="example__image-before" src="dist/img/before-slider.png"  width="311" height="232" alt="Cat image before">
+          <img class="example__image-before" src="dist/img/before-slider-mobile.png"  width="311" height="232" alt="Cat image before">
           <img class="example__image-after--mobile" src="dist/img/after-slider-mobile.png"  width="251" height="232" alt="Cat image after">
-          <img class="example__image-after--desktop" src="dist/img/after-slider-desktop.png"  width="545" height="517" alt="Cat image after">
           <div class="example__switch-wrapper--mobile">
             <span class="example__slider-text">Before</span>
             <label class="example__switch--mobile">
@@ -123,11 +122,14 @@
             </label>
             <span class="example__slider-text">After</span>
           </div>
-          <div class="example__slider-wrapper">
-            <span class="example__slider-text">Before</span>
-              <input class="example__slider" id="Range" type="range" min="1" max="100" value="50">
-            <span class="example__slider-text">After</span>
-          </div>
+        </div>
+        <div class="example__slider-wrapper">
+          <figure class="example__slider-figure">
+            <div id="divisor" class="example__slider-divisor"></div>
+          </figure>
+          <span class="example__slider-text">Before</span>
+            <input class="example__slider" id="slider" type="range" min="1" max="100" value="50" oninput="moveDivisor()">
+          <span class="example__slider-text">After</span>
         </div>
       </div>
     </section>
@@ -155,5 +157,6 @@
   </footer>
   <script src="dist/js/nav-toggle.js"></script>
   <script src="dist/js/example-switch.js"></script>
+  <script src="dist/js/example-slider.js"></script>
 </body>
 </html>

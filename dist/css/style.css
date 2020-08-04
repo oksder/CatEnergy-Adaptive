@@ -1006,7 +1006,7 @@ input[type="radio"].visually-hidden {
   .example__list--wrapper {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 250px;
+    padding-bottom: 80px;
   }
   .example__item {
     padding: 0 30px;
@@ -1026,10 +1026,7 @@ input[type="radio"].visually-hidden {
     margin: 0;
   }
   .example__container {
-    position: relative;
-    text-align: center;
-    background-color: #f2f2f2;
-    padding: 0;
+    display: none;
   }
   .example__image-before {
     position: absolute;
@@ -1051,13 +1048,14 @@ input[type="radio"].visually-hidden {
     display: none;
   }
   .example__slider-wrapper {
+    position: relative;
     display: block;
     width: 100%;
     text-align: center;
     font-size: 20px;
     line-height: 20px;
     text-transform: uppercase;
-    padding: 366px 0 40px 0;
+    padding: 0 0 70px 0;
   }
   .example__slider {
     -webkit-appearance: none;
@@ -1106,6 +1104,24 @@ input[type="radio"].visually-hidden {
     background: #ffffff;
     outline: solid 1px #dcdcdc;
     cursor: pointer;
+  }
+  .example__slider-figure {
+    position: relative;
+    font-size: 0;
+    margin: 0 auto;
+    width: 680px;
+    height: 517px;
+    background-image: url("../img/before-slider-desktop.jpg");
+    background-repeat: no-repeat;
+  }
+  .example__slider-divisor {
+    position: absolute;
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+    left: 20px;
+    background-image: url("../img/after-slider-desktop.jpg");
+    background-repeat: no-repeat;
   }
 }
 

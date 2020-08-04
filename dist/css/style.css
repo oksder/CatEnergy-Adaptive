@@ -206,6 +206,10 @@ input[type="radio"].visually-hidden {
     margin-top: 77px;
     background-color: transparent;
   }
+  .main-nav__list {
+    position: relative;
+    left: -50px;
+  }
   .main-nav__wrapper {
     margin: 0;
   }
@@ -270,7 +274,6 @@ input[type="radio"].visually-hidden {
 @media (min-width: 1330px) {
   .site-list {
     width: 522px;
-    margin-right: 110px;
   }
   .site-list__item {
     margin-right: 0;
@@ -430,6 +433,8 @@ input[type="radio"].visually-hidden {
   }
   .food-choice__image--desktop {
     display: block;
+    position: relative;
+    left: -45px;
     margin: 40px 220px 0 0;
   }
   .food-choice__background--mobile {
@@ -440,7 +445,7 @@ input[type="radio"].visually-hidden {
     display: block;
     width: 720px;
     height: 696px;
-    right: -110px;
+    right: -60px;
     top: -110px;
     z-index: -1;
   }
@@ -1188,6 +1193,6 @@ input[type="radio"].visually-hidden {
 
 @media (min-width: 1330px) {
   .page-footer {
-    width: 1440px;
+    width: 1330px;
   }
 }

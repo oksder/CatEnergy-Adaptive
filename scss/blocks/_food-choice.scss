@@ -150,6 +150,8 @@
 
   .food-choice__image--desktop {
     display: block;
+    position: relative;
+    left: -45px;
     margin: 40px 220px 0 0;
   }
 
@@ -162,7 +164,7 @@
     display: block;
     width: 720px;
     height: 696px;
-    right: -110px;
+    right: -60px;
     top: -110px;
     z-index: -1;
   }

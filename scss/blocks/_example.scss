@@ -337,9 +337,9 @@
 
   .example__title {
     padding: 0;
-    margin-bottom: 60px;
+    margin: 60px 0;
   }
-  
+
   .example__description {
     width: 450px;
   }
@@ -358,7 +358,8 @@
   }
 
   .example__slider-wrapper {
-    top: -80px;
-    left: 30px;
+    top: -60px;
+    left: 60px;
+    padding: 0;
   }
 }

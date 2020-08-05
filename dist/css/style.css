@@ -1152,7 +1152,7 @@ input[type="radio"].visually-hidden {
   }
   .example__title {
     padding: 0;
-    margin-bottom: 60px;
+    margin: 60px 0;
   }
   .example__description {
     width: 450px;
@@ -1169,8 +1169,9 @@ input[type="radio"].visually-hidden {
     margin: 0;
   }
   .example__slider-wrapper {
-    top: -80px;
-    left: 30px;
+    top: -60px;
+    left: 60px;
+    padding: 0;
   }
 }
 
@@ -1201,6 +1202,14 @@ input[type="radio"].visually-hidden {
 .contacts__map--mobile {
   z-index: -1;
   position: absolute;
+}
+
+.contacts__map--tablet {
+  display: none;
+}
+
+.contacts__map--desktop {
+  display: none;
 }
 
 .contacts__map-google {
@@ -1346,14 +1355,95 @@ input[type="radio"].visually-hidden {
   .page-footer {
     width: 768px;
   }
+  .page-footer__contacts {
+    padding: 50px;
+  }
+  .contacts__title {
+    width: 180px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .contacts__location {
+    width: 200px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .contacts__map--mobile {
+    display: none;
+  }
+  .contacts__map--tablet {
+    display: block;
+    z-index: -1;
+    position: absolute;
+  }
+  .contacts__map-google {
+    width: 767px;
+    height: 400px;
+  }
+  .page-footer__content-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .page-footer__logo {
+    margin: 64px 28px;
+  }
   .page-footer__social {
     display: flex;
     justify-content: space-between;
+  }
+  .social__list {
+    left: -100px;
+  }
+  .social__list::after {
+    display: none;
+  }
+  .page-footer__logo-wrapper::after {
+    display: none;
+  }
+  .page-footer__copyright {
+    padding: 60px 30px 60px 0;
+    width: 164px;
   }
 }
 
 @media (min-width: 1330px) {
   .page-footer {
     width: 1330px;
+  }
+  .page-footer__wrapper {
+    position: relative;
+  }
+  .page-footer__contacts {
+    position: absolute;
+    top: 96px;
+    left: 110px;
+    width: 400px;
+    z-index: 3;
+  }
+  .contacts__location {
+    padding-left: 50px;
+  }
+  .contacts__map--tablet {
+    display: none;
+  }
+  .contacts__map-google {
+    width: 1330px;
+    height: 400px;
+  }
+  .page-footer__content-wrapper {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  .page-footer__logo {
+    margin: 0;
+    padding-top: 20px;
+  }
+  .social__list {
+    left: -300px;
+  }
+  .page-footer__copyright {
+    padding: 0;
+    padding-top: 20px;
   }
 }

@@ -223,11 +223,13 @@
 
 @media (min-width: $desktop-width) {
   .page-footer {
-    width: 1330px;
+    width: 100%;
   }
 
   .page-footer__wrapper {
     position: relative;
+    margin: 0 auto;
+    width: 1330px;
   }
 
   .page-footer__contacts {

@@ -26,6 +26,7 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
+  width: 280px;
   padding: 0;
   margin: 0;
 }
@@ -37,12 +38,14 @@
 }
 
 .example__item {
+  position: relative;
   display: flex;
   flex-direction: column;
-  margin-right: 17px;
 
   text-align: center;
   width: 124px;
+  border: 1px solid #cdcdcd;
+  border-radius: 5px;
   font-family: Arial
 }
 
@@ -52,7 +55,15 @@
   font-size: 24px;
   line-height: 24px;
 
-  padding-bottom: 10px;
+  padding: 20px 0;
+}
+
+.example__number--text {
+  position: absolute;
+  bottom: -10px;
+  left: 23px;
+  width: 80px;
+  background-color: $bg-lightgrey;
 }
 
 .example__amount-spent {
@@ -177,8 +188,12 @@
     padding-bottom: 80px;
   }
 
+  .example__list {
+    width: 366px;
+  }
+
   .example__item {
-    padding: 0 30px;
+    padding: 0 20px;
     margin: 0;
   }
 
@@ -188,12 +203,17 @@
     margin: 0;
   }
 
+  .example__number--text {
+    left: 40px;
+    background-color: #ffffff;
+  }
+
   .example__amount-spent {
     text-align: end;
     font-size: 20px;
     line-height: 20px;
     width: 130px;
-    padding: 0;
+    padding: 10px 0;
     margin: 0;
   }
 
@@ -275,6 +295,7 @@
   .example__slider-text {
     text-decoration: underline dotted #c5c6c6;
     text-underline-position: under;
+    cursor: pointer;
 
     &:hover {
       text-decoration: underline solid #000000;

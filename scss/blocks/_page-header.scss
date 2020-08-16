@@ -12,14 +12,6 @@
   margin-bottom: 25px;
 }
 
-.page-header__logo--tablet {
-  display: none;
-}
-
-.page-header__logo--desktop {
-  display: none;
-}
-
 @media (min-width: $tablet-width) {
   .page-header {
     width: 768px;
@@ -40,10 +32,6 @@
 @media (min-width: $desktop-width) {
   .page-header {
     width: 1220px;
-  }
-
-  .page-header__logo--tablet {
-    display: none;
   }
 
   .page-header__logo {

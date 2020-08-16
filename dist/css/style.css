@@ -66,14 +66,6 @@ input[type="radio"].visually-hidden {
   margin-bottom: 25px;
 }
 
-.page-header__logo--tablet {
-  display: none;
-}
-
-.page-header__logo--desktop {
-  display: none;
-}
-
 @media (min-width: 768px) {
   .page-header {
     width: 768px;
@@ -92,9 +84,6 @@ input[type="radio"].visually-hidden {
 @media (min-width: 1330px) {
   .page-header {
     width: 1220px;
-  }
-  .page-header__logo--tablet {
-    display: none;
   }
   .page-header__logo {
     display: block;

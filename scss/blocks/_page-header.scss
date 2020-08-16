@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-.page-header__logo-icon--mobile {
+.page-header__logo {
   display: inline-flex;
   margin: 10px 57px 16px 20px;
 }
@@ -26,15 +26,11 @@
     display: flex;
   }
 
-  .page-header__logo-icon--mobile {
-    display: none;
-  }
-
   .page-header__logo-text--mobile {
       display: none;
   }
 
-  .page-header__logo--tablet {
+  .page-header__logo {
     display: block;
     width: 173px;
     margin: 25px 0 0 30px;
@@ -50,7 +46,7 @@
     display: none;
   }
 
-  .page-header__logo--desktop {
+  .page-header__logo {
     display: block;
     width: 202px;
     margin-top: 50px;

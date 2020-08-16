@@ -10,10 +10,12 @@
 <body>
   <header class="page-header">
     <a href="index.html" class="main-nav__logo">
-      <img class="page-header__logo-icon--mobile" src="dist/img/logotype-mobile-icon.svg" width="33" height="38" alt="Cat Energy Logo">
-      <img class="page-header__logo-text--mobile" src="dist/img/logotype-mobile.svg" width="101" height="18" alt="Cat Energy">
-      <img class="page-header__logo--tablet" src="dist/img/logo-tablet.svg" width="173" height="58" alt="Cat Energy Logo">
-      <img class="page-header__logo--desktop" src="dist/img/logo-desktop.svg" width="202" height="59" alt="Cat Energy Logo">
+      <picture>
+        <source class="page-header__logo--desktop" media="(min-width: 1330px)" srcset="dist/img/logo-desktop.svg">
+        <source class="page-header__logo--tablet" media="(min-width: 768px)" srcset="dist/img/logo-tablet.svg">
+        <img class="page-header__logo" src="dist/img/logotype-mobile-icon.svg" width="33" height="38" alt="Cat Energy Logo">
+        <img class="page-header__logo-text--mobile" src="dist/img/logotype-mobile.svg" width="101" height="18" alt="Cat Energy">
+      </picture>
     </a>
     <nav class="main-nav main-nav--closed">
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Open menu</span></button>
@@ -35,7 +37,7 @@
       </div>
         <img class="food-chioce__image--mobile" src="dist/img/product-mobile.png" width="280" height="270" alt="Cat Enery Pro food">
         <img class="food-choice__image--tablet" src="dist/img/product-tablet.png" width="709" height="609" alt="Cat Enery Pro food">
-          <img class="food-choice__image--desktop" src="dist/img/product-desktop.png" width="552" height="499" alt="Cat Enery Pro food">
+        <img class="food-choice__image--desktop" src="dist/img/product-desktop.png" width="552" height="499" alt="Cat Enery Pro food">
         <img class="food-choice__background--mobile" src="dist/img/mobile-background.jpg" width="320" height="305" alt="Background image">
         <img class="food-choice__background--desktop" src="dist/img/desktop-background.jpg" width="720" height="696" alt="Background image">
         <button class="food-choice__button--mobile button" type="button">Choose food type</button>
@@ -153,39 +155,28 @@
         <div class="page-footer__social social">
           <ul class="social__list">
             <li class="social__item"><a href="#" class="social__link">
-              <svg class="social__link--vkontakte" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="12" x="0px" y="0px" viewBox="0 0 22 12" style="enable-background:new 0 0 22 12;" xml:space="preserve"><g><path d="M17.55,12c-0.28,0-0.86-0.06-1.52-0.48c-0.47-0.29-0.9-0.74-1.31-1.17c-0.32-0.34-0.86-0.9-1.06-0.9
-              		c-0.2,0.06-0.35,0.7-0.35,1.19c0,0.09,0,0.59-0.34,0.92c-0.31,0.3-0.8,0.37-0.89,0.38l-1.41,0.01c-0.71,0-3.2-0.17-5.45-2.3C2.52,7.1,0.21,2.2,0.11,1.99c-0.14-0.35-0.18-0.81,0.11-1.13c0.29-0.31,0.79-0.36,1-0.36l2.99-0.02l0.08,0.01
-              		C4.36,0.5,4.71,0.56,5,0.75c0.28,0.19,0.43,0.5,0.46,0.56C5.46,1.32,5.93,2.4,6.54,3.35C7.5,4.87,7.93,5.22,8.08,5.3c0.14-0.32,0.2-1.29,0.14-2.19c0-0.38-0.07-0.84-0.18-0.97c-0.08-0.1-0.31-0.19-0.57-0.22L6.93,1.39c-0.07-0.5,0.47-0.93,0.84-1.1
-              		C8.31,0.05,9.09,0,10.08,0l0.52,0c0.91,0.01,1.19,0.06,1.58,0.15c1.25,0.27,1.2,1.32,1.15,2.52c-0.02,0.35-0.03,0.76-0.03,1.23c0,0.11,0,0.24-0.01,0.36c-0.01,0.29-0.02,0.79,0.07,0.99c0.16-0.11,0.62-0.51,1.52-1.89c0.57-0.89,1.03-1.93,1.11-2.13l0,0
-              		c0.13-0.33,0.45-0.72,1.18-0.72L20.3,0.5c0.01,0,0.13-0.01,0.28-0.01c0.72,0,1.17,0.22,1.34,0.65c0.2,0.49,0.12,1.26-1.73,3.51c-0.27,0.33-0.51,0.61-0.72,0.86c-0.44,0.52-0.89,1.05-0.91,1.21c0.04,0.13,0.49,0.51,0.92,0.87c1.12,0.95,1.85,1.72,2.22,2.34
-              		c0.38,0.58,0.31,1.01,0.19,1.28c-0.31,0.66-1.2,0.74-1.38,0.75l-2.78,0.04C17.7,12,17.64,12,17.55,12z M13.66,8.31c0.66,0,1.23,0.6,1.84,1.23c0.36,0.38,0.74,0.77,1.1,1c0.53,0.34,0.96,0.32,1.03,0.31l0.08-0.01l2.79-0.04
-              		c0.13-0.01,0.3-0.06,0.39-0.1c-0.01-0.03-0.04-0.07-0.07-0.13c-0.33-0.55-1.02-1.26-1.97-2.07c-0.87-0.73-1.32-1.12-1.37-1.71c-0.05-0.61,0.36-1.1,1.18-2.06c0.21-0.24,0.44-0.52,0.71-0.84c1.14-1.39,1.44-2.01,1.51-2.25c-0.12-0.02-0.48-0.02-0.5-0.01
-              		l-3.2,0.02c-0.14,0-0.18,0.03-0.18,0.03C16.86,2,16.4,3.06,15.79,4.01c-1.39,2.15-2.04,2.44-2.5,2.44c-0.15,0-0.29-0.04-0.42-0.11c-0.74-0.43-0.71-1.4-0.68-2.1c0-0.11,0.01-0.22,0.01-0.33c0-0.49,0.02-0.92,0.04-1.29c0.06-1.28,0.01-1.29-0.28-1.35
-              		c-0.3-0.07-0.52-0.11-1.36-0.12l-0.51,0c-0.46,0-0.98,0.01-1.4,0.07c0.07,0.06,0.13,0.12,0.19,0.19c0.43,0.54,0.44,1.49,0.44,1.67c0.1,1.25,0.04,2.89-0.75,3.28c-0.14,0.07-0.29,0.1-0.44,0.1c-0.68,0-1.36-0.67-2.51-2.49c-0.66-1.03-1.14-2.15-1.16-2.2
-              		C4.45,1.76,4.42,1.72,4.4,1.71C4.34,1.67,4.23,1.63,4.17,1.62L1.23,1.64c-0.02,0-0.03,0-0.05,0c0.43,0.91,2.51,5.02,4.78,7.17c2.01,1.91,4.27,2,4.71,2l1.36,0c0.03-0.01,0.16-0.05,0.2-0.08c-0.01,0.01-0.01-0.04-0.01-0.07c0-0.2,0.01-1.98,1.16-2.31C13.46,8.33,13.56,8.31,13.66,8.31z"/></g></svg>
+              <svg class="social__item-icon" width="22" height="12">
+                <use id="vkontakte-icon" xlink:href="dist/img/sprite.svg#vkontakte-icon"></use>
+              </svg>
               <span class="visually-hidden">Vkontakte</span></a></li>
             <li class="social__item"><a href="#" class="social__link">
-              <svg class="social__link--instagram" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" x="0px" y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><style type="text/css"></style>
-              <path class="st0" d="M11.83,1.04c1.73,0,3.13,1.41,3.13,3.13v7.66c0,1.73-1.4,3.13-3.13,3.13H4.17c-1.73,0-3.13-1.41-3.13-3.13V4.18
-              	c0-1.73,1.4-3.13,3.13-3.13L11.83,1.04 M11.83,0H4.17C1.88,0,0,1.88,0,4.18v7.66c0,2.3,1.88,4.18,4.17,4.18h7.65c2.29,0,4.17-1.88,4.17-4.18V4.18C16,1.88,14.12,0,11.83,0L11.83,0z"/>
-              <path class="st0" d="M8,4.93c1.7,0,3.08,1.38,3.08,3.08c0,1.7-1.38,3.08-3.08,3.08c-1.7,0-3.08-1.38-3.08-3.08C4.92,6.31,6.3,4.93,8,4.93 M8,3.88c-2.28,0-4.13,1.85-4.13,4.13S5.72,12.13,8,12.13s4.12-1.85,4.12-4.13S10.28,3.88,8,3.88L8,3.88z"/><circle class="st0" cx="12.27" cy="3.74" r="0.93"/></svg>
+              <svg class="social__item-icon" width="16" height="16">
+                <use id="instagram-icon" xlink:href="dist/img/sprite.svg#instagram-icon"></use>
+              </svg>
               <span class="visually-hidden">Instagram</span></a></li>
             <li class="social__item"><a href="#" class="social__link">
-              <svg class="social__link--facebook" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="19" x="0px" y="0px" viewBox="0 0 10 19" style="enable-background:new 0 0 10 19;" xml:space="preserve"><g>
-              	<path d="M7.05,19H2.01v-8.84H0V5.8h1.94C1.8,3.82,2.17,2.38,3.07,1.39C3.84,0.55,4.98,0.08,6.46,0L10,0v4.21H7.22 C7.1,4.43,7.04,4.96,7.04,5.8h2.94v4.37H7.05V19z M3.12,17.97h2.82V9.14h2.93V6.83H5.94l-0.01-0.5c-0.03-1.4,0-2.59,0.74-3.05
-              		l0.14-0.09h2.07V1.03h-2.4c-1.15,0.06-2.01,0.4-2.58,1.02C3.15,2.89,2.87,4.31,3.1,6.26l0.07,0.57H1.11v2.31h2.01V17.97z"/></g></svg>
+              <svg class="social__item-icon" width="10" height="19">
+                <use id="facebook-icon" xlink:href="dist/img/sprite.svg#facebook-icon"></use>
+              </svg>
               <span class="visually-hidden">Facebook</span></a></li>
           </ul>
           <div class="page-footer__copyright copyright">
             <a href="https://htmlacademy.ru" class="copyright__link">HTML Academy</a>
-            <a href="https://htmlacademy.ru"><svg class="copyright__icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="34" x="0px" y="0px"
-  	         viewBox="0 0 26.94 34.09" style="enable-background:new 0 0 26.94 34.09;" xml:space="preserve">
-            <path d="M13.62,0.02L13.47,0L0,1.41v24.66l13.47,8.02L26.9,26.1l0.04-0.02V1.41L13.62,0.02z M25.02,12.13L13.49,5.33l0-0.1
-            	l-0.09,0.05l-0.09-0.06v0.11L1.92,12.12V3.15l11.55-1.21l11.55,1.21L25.02,12.13L25.02,12.13z M13.41,6.79l11.52,6.71l-4.48,2.64
-            	l-7.09-4.22l-0.01,1.42l5.9,3.51l-0.86,0.51l-5.03-2.99l-0.01,1.41l3.83,2.27l-0.78,0.52l-3.03-1.79l-0.01,1.41l1.85,1.09l-1.8,1.08
-            	L2.03,13.62L13.41,6.79z M1.92,15.13l11.41,6.79l0.02,1.04l-7.94-4.73L5.4,19.65l7.98,4.79l0.02,1.08l-7.97-4.74L5.41,22.2
-            	l8.02,4.82l0.05,0.02l8.14-4.87l-0.01-5.18l3.42-2.04v10.02l-11.55,6.87L1.92,24.98V15.13z"/>
-            </svg></a>
+            <a href="https://htmlacademy.ru">
+              <svg class="copyright__icon" width="27" height="34">
+                <use id="copyright-icon" xlink:href="dist/img/sprite.svg#copyright-icon"></use>
+              </svg>
+            </a>
           </div>
         </div>
       </div>

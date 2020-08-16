@@ -111,8 +111,8 @@
   padding: 25px 0;
 }
 
-.social__link--vkontakte {
-  fill: #666666;
+  .social__item-icon {
+    fill:#666666;
 
     &:hover {
       fill: $green-color;
@@ -121,29 +121,6 @@
     &:active {
       fill: #d8e7cf;
     }
-}
-  .social__link--instagram {
-    fill: #666666;
-
-      &:hover {
-        fill: $green-color;
-      }
-
-      &:active {
-        fill: #d8e7cf;
-      }
-  }
-
-  .social__link--facebook {
-    fill: #666666;
-
-      &:hover {
-        fill: $green-color;
-      }
-
-      &:active {
-        fill: #d8e7cf;
-      }
   }
 
   .page-footer__copyright {

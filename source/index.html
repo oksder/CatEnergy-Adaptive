@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <title>Cat Energy</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="css/style.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css" as="style">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet" as="font">
 </head>
 <body>
   <div style="display:none">
@@ -55,7 +55,7 @@
               <h3 class="catalog-choice__title">Slimming</h3>
             </div>
             <p class="catalog-choice__description">Does your cat weigh more than a dog and has almost lost the ability to climb trees? It's time for a diet! Cat Energy Slim will help your pet lose weight.</p>
-            <a href="catalog.html" class="catalog-choice__button">Catalog Slim<img class="catalog-choice__arrow" src="img/right-arrow.svg" width="24" height="11"></img></a>
+            <a href="catalog.html" class="catalog-choice__button">Catalog Slim<img class="catalog-choice__arrow" src="img/right-arrow.svg" width="24" height="11" alt="Catalog slim button"></img></a>
           </li>
           <li class="catalog-choice__item">
             <div class="catalog-choice__item-wrapper">
@@ -63,7 +63,7 @@
               <h3 class="catalog-choice__title">Weight gain</h3>
             </div>
             <p class="catalog-choice__description">Want to earn credibility between cats and dogs? The Cat Energy Pro Series will help your cat build muscle!</p>
-            <a href="catalog.html" class="catalog-choice__button">Catalog Pro<img class="catalog-choice__arrow" src="img/right-arrow.svg" width="24" height="11"></img></a>
+            <a href="catalog.html" class="catalog-choice__button">Catalog Pro<img class="catalog-choice__arrow" src="img/right-arrow.svg" width="24" height="11" alt="Catalog choice button"></img></a>
           </li>
         </ul>
       </div>
@@ -124,10 +124,10 @@
         </div>
         <div class="example__container">
           <img class="example__image-before" src="img/before-slider-mobile.webp"  width="311" height="232" alt="Cat image before">
-          <img class="example__image-after--mobile" src="img/after-slider-mobile.webp"  width="251" height="232" alt="Cat image after">
+          <img class="example__image-after--mobile" src="img/after-slider-mobile.webp"  width="251" height="240" alt="Cat image after">
           <div class="example__switch-wrapper--mobile">
             <span class="example__slider-text">Before</span>
-            <label class="example__switch--mobile">
+            <label class="example__switch--mobile">Before
               <input class="example__switch-input" type="checkbox">
               <span class="example__slider--mobile"></span>
             </label>
@@ -138,9 +138,10 @@
           <figure class="example__slider-figure">
             <div id="divisor" class="example__slider-divisor"></div>
           </figure>
-          <span class="example__slider-text">Before</span>
+          <label class="example__slider-text">Before
             <input class="example__slider" id="slider" type="range" min="1" max="100" value="50" oninput="moveDivisor()">
-          <span class="example__slider-text">After</span>
+            After
+          </label>
         </div>
       </div>
     </section>
@@ -154,8 +155,8 @@
       <div class="contacts__map-wrapper">
         <img class="contacts__map--mobile" src="img/map-mobile.webp" width="320" height="400" alt="Map of our location">
         <img class="contacts__map--tablet" src="img/map-tablet.webp" width="767" height="400" alt="Map of our location">
-        <img class="contacts__map--desktop" src="img/map-mobile.webp" width="1330" height="400" alt="Map of our location">
-        <iframe class="contacts__map-google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253002806!2d30.320858715677204!3d59.93871916905467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2sBolshaya%20Konyushennaya%20St%2C%2019%2F8%2C%20Sankt-Peterburg%2C%20Russia%2C%20191186!5e0!3m2!1sen!2suk!4v1596562480451!5m2!1sen!2suk" width="320" height="400"  style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <img class="contacts__map--desktop" src="img/map-desktop.webp" width="1330" height="400" alt="Map of our location">
+        <iframe class="contacts__map-google" title="where to find us on map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253002806!2d30.320858715677204!3d59.93871916905467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2sBolshaya%20Konyushennaya%20St%2C%2019%2F8%2C%20Sankt-Peterburg%2C%20Russia%2C%20191186!5e0!3m2!1sen!2suk!4v1596562480451!5m2!1sen!2suk" width="320" height="400"  style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
       <div class="page-footer__content-wrapper">
         <div class="page-footer__logo-wrapper">
@@ -196,7 +197,6 @@
   <script src="js/nav-toggle.js"></script>
   <script src="js/example-switch.js"></script>
   <script src="js/example-slider.js"></script>
-  <script src="js/map-pin.js"></script>
   <script src="js/svg-for-everybody.js"></script>
 </body>
 </html>

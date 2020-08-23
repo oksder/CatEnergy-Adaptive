@@ -40,11 +40,16 @@
       </div>
         <picture>
           <source media="(min-width: 1330px)" srcset="img/product-desktop.webp" type="image/webp">
-          <source media="(min-width: 768px)" srcset="img/product-desktop.webp" type="image/webp">
+          <source media="(min-width: 1330px)" srcset="img/product-desktop.png" type="image/png">
+          <source media="(min-width: 768px)" srcset="img/product-tablet.webp" type="image/webp">
+          <source media="(min-width: 768px)" srcset="img/product-tablet.png" type="image/png">
+          <source srcset="img/product-mobile.png" type="image/png">
           <img class="food-chioce__image" src="img/product-mobile.webp" type="image/webp" alt="Cat Enery Pro food">
         </picture>
         <picture>
           <source media="(min-width: 1330px)" srcset="img/desktop-background.webp" type="image/webp">
+          <source media="(min-width: 1330px)" srcset="img/desktop-background.jpg" type="image/jpeg">
+          <source srcset="img/mobile-background.jpg" type="image/jpeg">
           <img class="food-choice__background" src="img/mobile-background.webp" type="image/webp" alt="Background image">
         </picture>
         <button class="food-choice__button--mobile button" type="button">Choose food type</button>
@@ -55,7 +60,10 @@
         <ul class="catalog-choice__list">
           <li class="catalog-choice__item">
             <div class="catalog-choice__item-wrapper">
-              <img class="catalog-choice__icon catalog-choice__icon--cat" src="img/slimming-vector.webp" alt="Slimming vector"></img>
+              <picture>
+                <source srcset="img/slimming-vector.png" type="image/png">
+                <img class="catalog-choice__icon catalog-choice__icon--cat" src="img/slimming-vector.webp" type="image/webp" alt="Slimming vector">
+              </picture>
               <h3 class="catalog-choice__title">Slimming</h3>
             </div>
             <p class="catalog-choice__description">Does your cat weigh more than a dog and has almost lost the ability to climb trees? It's time for a diet! Cat Energy Slim will help your pet lose weight.</p>
@@ -63,7 +71,10 @@
           </li>
           <li class="catalog-choice__item">
             <div class="catalog-choice__item-wrapper">
-              <img class="catalog-choice__icon catalog-choice__icon--jaguar" src="img/weight-gain-vector.webp" alt="Weiht gain vector"></img>
+              <picture>
+                <source srcset="img/weight-gain-vector.png" type="image/png">
+                <img class="catalog-choice__icon catalog-choice__icon--jaguar" src="img/weight-gain-vector.webp" type="image/webp" alt="Weiht gain vector">
+              </picture>
               <h3 class="catalog-choice__title">Weight gain</h3>
             </div>
             <p class="catalog-choice__description">Want to earn credibility between cats and dogs? The Cat Energy Pro Series will help your cat build muscle!</p>
@@ -78,28 +89,40 @@
         <ul class="advantages__list">
           <li class="advantages__item">
             <div class="advantages__item-wrapper">
-              <img class="advantages__icon--leaf" src="img/leaf.webp" width="26" height="29" alt="Leaf icon"></img>
+              <picture>
+                <source srcset="img/leaf.png" type="image/png">
+                <img class="advantages__icon--leaf" src="img/leaf.webp" type="image/webp" alt="Leaf icon">
+              </picture>
               <span class="advantages__number--one">1</span>
               <p class="advantages__description">Functional nutrition contains only beneficial nutrients.</p>
             </div>
           </li>
           <li class="advantages__item">
             <div class="advantages__item-wrapper">
-              <img class="advantages__icon--water" src="img/water.webp" width="29" height="31" alt="Water icon"></img>
+              <picture>
+                <source srcset="img/water.png" type="image/png">
+                <img class="advantages__icon--water" src="img/water.webp" type="image/webp" alt="Water icon">
+              </picture>
               <span class="advantages__number--two">2</span>
               <p class="advantages__description">It is available as a powder, which you only need to pour into a boiling water.</p>
             </div>
           </li>
           <li class="advantages__item">
             <div class="advantages__item-wrapper">
-              <img class="advantages__icon--cutlery" src="img/cutlery.webp" width="23" height="30" alt="Cutlery icon"></img>
+              <picture>
+                <source srcset="img/cutlery.png" type="image/png">
+                <img class="advantages__icon--cutlery" src="img/cutlery.webp" type="image/webp" alt="Cutlery icon">
+              </picture>
               <span class="advantages__number--three">3</span>
               <p class="advantages__description">Replace one or two regular meals with our functional diet.</p>
             </div>
           </li>
           <li class="advantages__item">
             <div class="advantages__item-wrapper">
-              <img class="advantages__icon--clock" src="img/clock.webp" width="26" height="31" alt="Clock icon"></img>
+              <picture>
+                <source srcset="img/clock.png" type="image/png">
+                <img class="advantages__icon--clock" src="img/clock.webp" type="image/webp" alt="Clock icon">
+              </picture>
               <span class="advantages__number--four">4</span>
               <p class="advantages__description">Enjoy the change of your pet within a month!</p>
             </div>
@@ -127,8 +150,14 @@
           </div>
         </div>
         <div class="example__container">
-          <img class="example__image-before" src="img/before-slider-mobile.webp"  width="311" height="232" alt="Cat image before">
-          <img class="example__image-after--mobile" src="img/after-slider-mobile.webp"  width="251" height="240" alt="Cat image after">
+          <picture>
+            <source srcset="img/before-slider-mobile.png" type="image/png">
+            <img class="example__image-before" src="img/before-slider-mobile.webp" type="image/webp" alt="Cat image before">
+          </picture>
+          <picture>
+            <source srcset="img/after-slider-mobile.png" type="image/png">
+            <img class="example__image-after--mobile" src="img/after-slider-mobile.webp" type="image/webp" alt="Cat image after">
+          </picture>
           <div class="example__switch-wrapper--mobile">
             <span class="example__slider-text">Before</span>
             <label class="example__switch--mobile">Before
@@ -157,9 +186,14 @@
         <p class="contacts__location">Bolshaya Konyushennaya Street 19/8,St.Petersburg</p>
       </section>
       <div class="contacts__map-wrapper">
-        <img class="contacts__map--mobile" src="img/map-mobile.webp" width="320" height="400" alt="Map of our location">
-        <img class="contacts__map--tablet" src="img/map-tablet.webp" width="767" height="400" alt="Map of our location">
-        <img class="contacts__map--desktop" src="img/map-desktop.webp" width="1330" height="400" alt="Map of our location">
+        <picture>
+          <source media="(min-width: 1330px)" srcset="img/map-desktop.webp" type="image/webp">
+          <source media="(min-width: 1330px)" srcset="img/map-desktop.jpg" type="image/jpeg">
+          <source media="(min-width: 768px)" srcset="img/map-tablet.webp" type="image/webp">
+          <source media="(min-width: 768px)" srcset="img/map-tablet.jpg" type="image/jpeg">
+          <source srcset="img/map-mobilet.jpg" type="image/jpeg">
+          <img class="contacts__map" src="img/map-mobile.webp" alt="Map of our location">
+        </picture>
         <iframe class="contacts__map-google" title="where to find us on map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253002806!2d30.320858715677204!3d59.93871916905467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2sBolshaya%20Konyushennaya%20St%2C%2019%2F8%2C%20Sankt-Peterburg%2C%20Russia%2C%20191186!5e0!3m2!1sen!2suk!4v1596562480451!5m2!1sen!2suk" width="320" height="400"  style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
       <div class="page-footer__content-wrapper">

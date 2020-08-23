@@ -24,17 +24,9 @@
   font-family: Arial;
 }
 
-.contacts__map--mobile {
+.contacts__map {
 	z-index: -1;
 	position: absolute;
-}
-
-.contacts__map--tablet {
-  display: none;
-}
-
-.contacts__map--desktop {
-  display: none;
 }
 
 .contacts__map-google {
@@ -174,16 +166,6 @@
     line-height: 20px;
   }
 
-  .contacts__map--mobile {
-    display: none;
-  }
-
-  .contacts__map--tablet {
-    display: block;
-    z-index: -1;
-    position: absolute;
-  }
-
   .contacts__map-google {
     width: 767px;
     height: 400px;
@@ -244,9 +226,6 @@
     padding-left: 50px;
   }
 
-  .contacts__map--tablet {
-    display: none;
-  }
 
   .contacts__map-google {
     width: 1330px;

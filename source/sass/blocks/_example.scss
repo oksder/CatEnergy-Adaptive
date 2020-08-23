@@ -309,16 +309,19 @@
     cursor: pointer;
   }
 
-
-  .example__slider-figure {
+ .example__slider-figure {
     position: relative;
     font-size: 0;
     margin: 0 auto;
 
     width: 680px;
     height: 517px;
-    background-image: url("../img/before-slider-desktop.jpg");
+    background-image: url("../img/before-slider-desktop.webp");
     background-repeat: no-repeat;
+  }
+
+  .no-webp .example__slider-figure {
+    background-image: url("../img/before-slider-desktop.jpg");
   }
 
   .example__slider-divisor {
@@ -329,8 +332,12 @@
     height: 100%;
     left: 20px;
 
-    background-image: url("../img/after-slider-desktop.jpg");
+    background-image: url("../img/after-slider-desktop.webp");
     background-repeat: no-repeat;
+  }
+
+  .no-webp .example__slider-divisor {
+    background-image: url("../img/after-slider-desktop.jpeg");
   }
 }
 

@@ -8,6 +8,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div style="display:none">
+    <include src="build/img/sprite.svg"></include>
+  </div>
   <header class="page-header">
     <a href="index.html" class="main-nav__logo">
       <picture>
@@ -164,26 +167,25 @@
           <ul class="social__list">
             <li class="social__item"><a href="#" class="social__link">
               <svg class="social__item-icon" width="22" height="12">
-                <use id="vkontakte-icon" xlink:href="img/sprite.svg#vkontakte-icon"></use>
+                <use xlink:href="#icon-vkontakte"></use>
               </svg>
               <span class="visually-hidden">Vkontakte</span></a></li>
             <li class="social__item"><a href="#" class="social__link">
               <svg class="social__item-icon" width="16" height="16">
-                <use id="instagram-icon" xlink:href="img/sprite.svg#instagram-icon"></use>
+                <use xlink:href="#icon-instagram"></use>
               </svg>
               <span class="visually-hidden">Instagram</span></a></li>
             <li class="social__item"><a href="#" class="social__link">
-              <!-- <svg class="social__item-icon" width="10" height="19">
-                <use id="facebook-icon" xlink:href="img/sprite.svg#facebook-icon"></use>
-              </svg> -->
-              <include class="social__item-icon" width="10" height="19" src="img/sprite.svg#icon-facebook"></include>
+              <svg class="social__item-icon" width="10" height="19">
+                <use xlink:href="#icon-facebook"></use>
+              </svg>
               <span class="visually-hidden">Facebook</span></a></li>
           </ul>
           <div class="page-footer__copyright copyright">
             <a href="https://htmlacademy.ru" class="copyright__link">HTML Academy</a>
             <a href="https://htmlacademy.ru">
               <svg class="copyright__icon" width="27" height="34">
-                <use id="copyright-icon" xlink:href="img/sprite.svg#copyright-icon"></use>
+                <use xlink:href="#icon-copyright"></use>
               </svg>
             </a>
           </div>

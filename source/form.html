@@ -35,63 +35,78 @@
   <main>
     <section class="program-form">
       <div class="program-form__wrapper">
-        <h2 class="program-form__title">Choosing programm for your pet</h2>
+        <h2 class="program-form__title">Choosing program for your pet</h2>
         <p class="program-form__intro">Fill out the form and we will select a nutrition program for your cat</p>
         <form class="program-form__table">
-          <label for="name">Name*:</label>
-          <input type="text" id="name" name="name" value="Bars"><br>
-          <label for="weight">Weight(Kg)*:</label>
-          <input type="text" id="weight" name="weight" value="7"><br>
-          <label for="age">Age(Years)*:</label>
-          <input type="text" id="age" name="age" value="7"><br><br>
+          <p class="program-form__item">
+            <label class="program-form__label" for="name">Name*:</label>
+            <input class="program-form__input" type="text" id="name" name="name" value="Bars">
+          </p>
+          <p class="program-form__item">
+            <label class="program-form__label" for="weight">Weight(Kg)*:</label>
+            <input class="program-form__input" type="text" id="weight" name="weight" value="7">
+          </p>
+          <p class="program-form__item">
+            <label class="program-form__label" for="age">Age(Years)*:</label>
+            <input class="program-form__input" type="text" id="age" name="age" value="7">
+          </p>
         </form>
-        <form class="program-form__option-choice">
-          <input type="radio" id="slimming" name="option" value="slimming" checked="checked">
-          <label for="slimming">Slimming</label><br>
-          <input type="radio" id="weight-gain" name="option" value="weight-gain">
-          <label for="weight-gain">Weight-gain</label><br>
-          <input type="radio" id="other" name="option" value="other">
-          <label for="other">I don't know(need your advice)</label>
+        <div class="program-form__radio-wrapper">
+          <label class="program-form__radio">
+            <input class="program-form__radio-input" type="radio" checked="checked" name="radio">
+            Slimming
+            <span class="program-form__checkmark"></span>
+          </label>
+          <label class="program-form__radio">
+            <input class="program-form__radio-input" type="radio" name="radio">
+            Weight-gain
+            <span class="program-form__checkmark"></span>
+          </label>
+          <label class="program-form__radio">
+            <input class="program-form__radio-input" type="radio" name="radio">
+            I don't know (need your advice)
+            <span class="program-form__checkmark"></span>
+          </label>
+        </div>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="contacts__wrapper">
+      <h2 class="contacts__title">Contact details (Pet's owner)</h2>
+      <form class="contacts__form">
+        <label for="mail">E-mail*:</label>
+        <input type="email" id="mail" name="mail" value="kuklachev@gmail.com"><br>
+        <label for="tel">Telephone*:</label>
+        <input type="tel" id="tel" name="tel" value="8(960)900-60-90"><br><br>
+      </form>
+      </div>
+    </section>
+    <section class="comments">
+      <div class="comments__wrapper">
+        <h2 class="comments__title">Leave your comment</h2>
+        <form class="comments__form">
+          <input type="text" id="comment" name="comment" value="Tell us about your cat's habits">
         </form>
       </div>
-      <section class="contacts">
-        <div class="contacts__wrapper">
-        <h2 class="contacts__title">Contact details (Pet's owner)</h2>
-        <form class="contacts__form">
-          <label for="mail">E-mail*:</label>
-          <input type="email" id="mail" name="mail" value="kuklachev@gmail.com"><br>
-          <label for="tel">Telephone*:</label>
-          <input type="tel" id="tel" name="tel" value="8(960)900-60-90"><br><br>
+    </section>
+    <section class="extra">
+      <div class="extra__wrapper">
+        <h2 class="extra__title">Additionally</h2>
+        <form class="extra__form">
+          <input type="checkbox" id="extra1" name="extra1" value="Sugar" checked="checked">
+          <label for="extra1">Sugar substitute</label><br>
+          <input type="checkbox" id="extra2" name="extra2" value="Water">
+          <label for="extra2">Drinking water</label><br>
+          <input type="checkbox" id="extra3" name="extra3" value="Milk">
+          <label for="extra3">Milk</label><br>
+          <input type="checkbox" id="extra4" name="extra4" value="Vitamins">
+          <label for="extra4">Vitamins</label><br><br>
         </form>
+        <div class="extra__submit-wrapper">
+          <input class="extra__submit" type="submit" value="Submit">
+          <small class="extra__info"><sup>*</sup> - required</small>
         </div>
-      </section>
-      <section class="comments">
-        <div class="comments__wrapper">
-          <h2 class="comments__title">Leave your comment</h2>
-          <form class="comments__form">
-            <input type="text" id="comment" name="comment" value="Tell us about your cat's habits">
-          </form>
-        </div>
-      </section>
-      <section class="extra">
-        <div class="extra__wrapper">
-          <h2 class="extra__title">Additionally</h2>
-          <form class="extra__form">
-            <input type="checkbox" id="extra1" name="extra1" value="Sugar" checked="checked">
-            <label for="extra1">Sugar substitute</label><br>
-            <input type="checkbox" id="extra2" name="extra2" value="Water">
-            <label for="extra2">Drinking water</label><br>
-            <input type="checkbox" id="extra3" name="extra3" value="Milk">
-            <label for="extra3">Milk</label><br>
-            <input type="checkbox" id="extra4" name="extra4" value="Vitamins">
-            <label for="extra4">Vitamins</label><br><br>
-          </form>
-          <div class="extra__submit-wrapper">
-            <input class="extra__submit" type="submit" value="Submit">
-            <small class="extra__info"><sup>*</sup> - required</small>
-          </div>
-        </div>
-      </section>
+      </div>
     </section>
   </main>
   <footer class="page-footer">
@@ -146,8 +161,6 @@
     </div>
   </footer>
   <script src="js/nav-toggle.js"></script>
-  <script src="js/example-switch.js"></script>
-  <script src="js/example-slider.js"></script>
   <script src="js/svg-for-everybody.js"></script>
 </body>
 </html>

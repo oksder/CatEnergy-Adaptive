@@ -35,10 +35,16 @@
 }
 
 .food-choice__button--mobile {
+  text-align: center;
   font-size: 14px;
   line-height: 14px;
   width: 90%;
   padding: 15px 0;
+  color: #ffffff;
+}
+
+.food-choice__button-link {
+  color: #fff;
 }
 
 @media (min-width: $tablet-width) {
@@ -72,6 +78,7 @@
   }
 
   .food-choice__button {
+    text-align: center;
     display: block;
     position: absolute;
     width: 244px;

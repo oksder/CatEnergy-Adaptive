@@ -81,6 +81,10 @@
     background-color: transparent;
   }
 
+  .site-list--form a {
+    color: #000;
+  }
+
   .site-list__item {
     margin-right: 32px;
 
@@ -90,6 +94,10 @@
         background: #ffffff;
       }
     }
+
+  .site-list__item--form-active::after {
+    background-color: $green-color;
+  }
 
   .site-list a[href] {
     &:hover {

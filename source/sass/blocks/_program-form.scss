@@ -202,3 +202,29 @@
     line-height: 20px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .program-form {
+    width: 1220px;
+  }
+
+  .program-form__title {
+    padding: 75px 40px;
+  }
+
+  .program-form__container {
+    display: flex;
+  }
+
+  .program-form__table {
+    width: 570px;
+  }
+
+  .program-form__radio-wrapper {
+    padding: 0 25px;
+    width: 570px;
+    margin: 0;
+    height: 190px;
+    margin-top: 20px;
+  }
+}

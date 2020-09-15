@@ -1,7 +1,7 @@
 .food-choice {
   position: relative;
   text-align: center;
-  width: 320px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -35,7 +35,10 @@
 }
 
 .food-choice__button--mobile {
-  width: 280px;
+  font-size: 14px;
+  line-height: 14px;
+  width: 90%;
+  padding: 15px 0;
 }
 
 @media (min-width: $tablet-width) {

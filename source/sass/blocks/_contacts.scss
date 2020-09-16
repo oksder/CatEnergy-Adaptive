@@ -63,6 +63,11 @@
     border: solid 1px #000000;
   }
 
+  &:focus ~ .form-contacts__icon--mail,
+  &:focus ~ .form-contacts__icon--phone {
+    fill: $green-color;
+  }
+
   &:invalid {
     border: solid 1px #ff8282;
   }
@@ -74,11 +79,6 @@
   right: 35px;
   fill: #000000;
   cursor: pointer;
-
-  &:active,
-  &:focus-within {
-    fill: $green-color;
-  }
 }
 
 .form-contacts__icon--phone {
@@ -87,10 +87,6 @@
   right: 30px;
   fill: #000000;
   cursor: pointer;
-
-  &:active {
-    fill: $green-color;
-  }
 }
 
 @media (min-width: $tablet-width) {

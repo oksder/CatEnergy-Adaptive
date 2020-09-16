@@ -41,15 +41,15 @@
           <form class="program-form__table">
             <p class="program-form__item">
               <label class="program-form__label" for="name">Name*:</label>
-              <input class="program-form__input" type="text" id="name" name="name" value="Bars">
+              <input class="program-form__input" type="text" id="name" name="name" placeholder="Bars">
             </p>
             <p class="program-form__item">
               <label class="program-form__label" for="weight">Weight(Kg)*:</label>
-              <input class="program-form__input" type="text" id="weight" name="weight" value="7">
+              <input class="program-form__input" type="text" id="weight" name="weight" placeholder="7">
             </p>
             <p class="program-form__item">
               <label class="program-form__label" for="age">Age(Years)*:</label>
-              <input class="program-form__input" type="text" id="age" name="age" value="7">
+              <input class="program-form__input" type="text" id="age" name="age" placeholder="7">
             </p>
           </form>
           <div class="program-form__radio-wrapper">
@@ -72,14 +72,24 @@
         </div>
       </div>
     </section>
-    <section class="contacts">
-      <div class="contacts__wrapper">
-      <h2 class="contacts__title">Contact details (Pet's owner)</h2>
-      <form class="contacts__form">
-        <label for="mail">E-mail*:</label>
-        <input type="email" id="mail" name="mail" value="kuklachev@gmail.com"><br>
-        <label for="tel">Telephone*:</label>
-        <input type="tel" id="tel" name="tel" value="8(960)900-60-90"><br><br>
+    <section class="form-contacts">
+      <div class="form-contacts__wrapper">
+      <h2 class="form-contacts__title">Contact details (Pet's owner)</h2>
+      <form class="form-contacts__form">
+        <p class="form-contacts__item">
+          <label for="mail">EMail*:</label>
+          <input class="form-contacts__input" type="email" id="mail" name="mail" placeholder="kuklachev@gmail.com">
+          <svg class="form-contacts__icon--mail" width="20" height="15">
+            <use xlink:href="#icon-mail"></use>
+          </svg>
+        </p>
+        <p class="form-contacts__item">
+          <label for="tel">Telephone*:</label>
+          <input class="form-contacts__input" type="tel" id="tel" name="tel" placeholder="8(960)900-60-90"><br><br>
+          <svg class="form-contacts__icon--phone" width="22" height="22">
+            <use xlink:href="#icon-phone"></use>
+          </svg>
+        </p>
       </form>
       </div>
     </section>

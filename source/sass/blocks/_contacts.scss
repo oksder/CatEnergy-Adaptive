@@ -55,7 +55,8 @@
     border: solid 1px #cdcdcd;
   }
 
-  &:active {
+  &:active,
+  &:focus-within {
     border: solid 1px #000000;
   }
 
@@ -70,7 +71,8 @@
   right: 35px;
   fill: #000000;
 
-  &:active {
+  &:active,
+  &:focus-within {
     fill: $green-color;
   }
 }
@@ -92,7 +94,6 @@
   }
 
   .form-contacts__title {
-
     font-size: 36px;
     line-height: 36px;
     padding: 0;
@@ -119,5 +120,31 @@
 
   .form-contacts__icon--phone {
     right: 85px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form-contacts {
+    width: 1220px;
+  }
+
+  .form-contacts__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1180px;
+    padding: 0 40px;
+  }
+
+  .form-contacts__item {
+    width: 570px;
+  }
+
+  .form-contacts__icon--phone {
+    right: 55px;
+  }
+
+  .form-contacts__icon--mail {
+    left: 575px;
   }
 }

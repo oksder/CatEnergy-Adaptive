@@ -83,7 +83,8 @@
     border: solid 1px #cdcdcd;
   }
 
-  &:active {
+  &:active,
+  &:focus-within  {
     border: solid 1px #000000;
   }
 

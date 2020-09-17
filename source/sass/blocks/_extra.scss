@@ -1,0 +1,123 @@
+.extra {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+
+  &::before {
+  content: "";
+    background-color: #68b738;
+    height: 3px;
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+.extra__title {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+  padding-left: 20px;
+  margin: 40px 0;
+  background-color: #ffffff;
+  width: 140px;
+  z-index: 1;
+}
+
+.extra__form {
+  position: relative;
+  margin: 0 20px;
+}
+
+.extra__label {
+  display: block;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 40px 50px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.extra__input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.extra__checkmark {
+  position: absolute;
+  top: -10px;
+  left: -53px;
+  height: 40px;
+  width: 40px;
+  border: solid 1px #e6e6e6;
+}
+
+ .extra__input:hover  ~ .extra__checkmark {
+   border: solid 1px #cdcdcd;
+}
+
+.extra__checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.extra__input:checked ~ .extra__checkmark:after {
+  display: block;
+}
+
+.extra__label .extra__checkmark:after {
+  left: 15px;
+  top: 6px;
+  width: 9px;
+  height: 19px;
+  border: solid $green-color;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.extra__submit-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.extra__submit {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.extra__button {
+  display: block;
+  font-family: inherit;
+  text-transform: uppercase;
+  line-height: 20px;
+  padding: 13px 0;
+  color: #ffffff;
+  background-color: $green-color;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #5eaa2f;
+  }
+
+  &:active {
+    color: #8bc26a;
+    background-color: #5eaa2f;
+  }
+}
+
+.extra__info {
+  text-align: center;
+  padding-bottom: 33px;
+}

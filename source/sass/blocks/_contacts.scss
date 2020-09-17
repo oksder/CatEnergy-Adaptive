@@ -71,6 +71,11 @@
   &:invalid {
     border: solid 1px #ff8282;
   }
+
+  &:invalid ~ .form-contacts__icon--mail,
+  &:invalid ~ .form-contacts__icon--phone {
+    fill: #ff8282;
+  }
 }
 
 .form-contacts__icon--mail {
@@ -130,7 +135,7 @@
   }
 
   .form-contacts__title {
-    padding: 0 0 0 50px;
+    padding: 0 0 0 45px;
     margin: 50px;
     margin-left: -10px;
   }

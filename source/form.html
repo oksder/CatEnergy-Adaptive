@@ -38,7 +38,7 @@
         <h2 class="program-form__title">Choose program for your cat</h2>
         <p class="program-form__intro">Fill out the form and we will select a nutrition program for your cat</p>
         <div class="program-form__container">
-          <form class="program-form__table">
+          <form class="program-form__table" method="post" action="https://echo.htmlacademy.ru">
             <p class="program-form__item">
               <label class="program-form__label" for="name">Name*:</label>
               <input class="program-form__input" type="text" id="name" name="name" placeholder="Bars">
@@ -103,17 +103,31 @@
       <div class="extra__wrapper">
         <h2 class="extra__title">Additionally</h2>
         <form class="extra__form">
-          <input type="checkbox" id="extra1" name="extra1" value="Sugar" checked="checked">
-          <label for="extra1">Sugar substitute</label><br>
-          <input type="checkbox" id="extra2" name="extra2" value="Water">
-          <label for="extra2">Drinking water</label><br>
-          <input type="checkbox" id="extra3" name="extra3" value="Milk">
-          <label for="extra3">Milk</label><br>
-          <input type="checkbox" id="extra4" name="extra4" value="Vitamins">
-          <label for="extra4">Vitamins</label><br><br>
+          <label class="extra__label">
+            <input class="extra__input" type="checkbox" checked="checked">
+            Sugar substitute
+            <span class="extra__checkmark"></span>
+          </label>
+          <label class="extra__label">
+            <input class="extra__input" type="checkbox">
+            Drinking water
+            <span class="extra__checkmark"></span>
+          </label>
+          <label class="extra__label">
+            <input class="extra__input" type="checkbox">
+            Milk
+            <span class="extra__checkmark"></span>
+          </label>
+          <label class="extra__label">
+            <input class="extra__input" type="checkbox">
+            Vitamins
+            <span class="extra__checkmark"></span>
+          </label>
         </form>
         <div class="extra__submit-wrapper">
-          <input class="extra__submit" type="submit" value="Submit">
+          <div class="extra__submit">
+            <buton class="extra__button" type="submit">Submit my form</button>
+          </div>
           <small class="extra__info"><sup>*</sup> - required</small>
         </div>
       </div>

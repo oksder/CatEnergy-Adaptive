@@ -170,7 +170,34 @@
   }
 }
 
-
 @media (min-width: $desktop-width) {
+  .extra__wrapper {
+    width: 1220px;
+  }
 
+  .extra__title {
+    padding: 0 0 0 50px;
+    margin: 50px 23px 50px -10px;
+    width: 224px;
+  }
+
+  .extra__label {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 40px 0 40px 52px;
+    width: auto;
+  }
+
+  .extra__form {
+    flex-wrap: nowrap;
+    padding: 0 20px;
+  }
+
+  .extra__submit-wrapper {
+    padding: 40px;
+  }
+
+  .extra__button {
+    width: 584px;
+  }
 }

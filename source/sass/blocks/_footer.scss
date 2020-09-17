@@ -134,8 +134,9 @@
 }
 
 @media (min-width: $tablet-width) {
-  .page-footer {
+  .page-footer__wrapper {
     width: 768px;
+    margin: 0 auto;
   }
 
   .page-footer__contacts {

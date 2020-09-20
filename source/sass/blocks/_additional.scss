@@ -193,7 +193,8 @@
     display: flex;
     justify-content: space-between;
 
-    &::before {
+    &::before,
+    &::after {
       display: block;
       top: 0px;
       width: 803px;

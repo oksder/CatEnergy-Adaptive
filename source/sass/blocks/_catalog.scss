@@ -287,3 +287,43 @@
     margin-top: 105px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .catalog__wrapper {
+    width: 1220px;
+    margin: 0 auto;
+  }
+
+  .catalog__title {
+    padding: 0 0 0 50px;
+    margin: 50px 50px 50px -10px;
+  }
+
+  .catalog__list {
+    width: 245px;
+  }
+
+  .catalog__product-wrapper {
+    width: 170px;
+  }
+
+  .catalog__order-button {
+    width: 170px;
+  }
+
+  .catalog__list--more {
+    width: 245px;
+  }
+
+  .catalog__order-button--more {
+    margin-top: 120px;
+  }
+
+  .catalog__product-image {
+    left: 12%;
+  }
+
+  .catalog__product-image--500g {
+    left: 18%;
+  }
+}

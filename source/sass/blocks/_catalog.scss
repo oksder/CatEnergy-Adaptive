@@ -151,3 +151,139 @@
       background-color: $bg-lightgrey;
     }
 }
+
+@media (min-width: $tablet-width) {
+
+  .catalog::before,
+  .catalog::after {
+    display: none;
+  }
+
+  .catalog__wrapper {
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  .catalog__title {
+    font-size: 60px;
+    line-height: 60px;
+    padding: 0;
+    padding-left: 20px;
+    margin: 45px 0 100px 0;
+  }
+
+  .catalog__list-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .catalog__list {
+    position: relative;
+    width: 324px;
+    background-color: $bg-lightgrey;
+    margin: 80px 30px;
+  }
+
+  .catalog__item {
+    text-align: center;
+    display: block;
+    padding: 0 40px;
+    margin-top: 140px;
+
+      &::before,
+      &::after {
+        display: none;
+    }
+  }
+
+  .catalog__product-wrapper {
+    width: 250px;
+    padding: 0px;
+  }
+
+  .catalog__product-title {
+    font-size: 20px;
+    line-height: 20px;
+    width: 100%;
+    padding: 25px 0;
+    margin: 0;
+  }
+
+  .catalog__product-image {
+    position: absolute;
+    bottom: 220px;
+    left: 21%;
+  }
+
+  .catalog__product-image--500g {
+    left: 25%;
+  }
+
+  .catalog__description {
+    position: relative;
+    font-size: 20px;
+    line-height: 20px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      width: 100%;
+      height: 1px;
+      background-color: #cdcdcd;
+    }
+  }
+
+  .catalog__order-button {
+    width: 250px;
+  }
+
+  .catalog__button-wrapper {
+    margin: 40px;
+  }
+
+  .catalog__list--more {
+    position: relative;
+    width: 324px;
+    margin: 80px 30px;
+    outline: solid 2px #e6e6e6;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .catalog__item--more {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .catalog__product-title--more {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+
+  .catalog__item--more {
+    padding-top: 145px;
+    width: 200px;
+    margin: 0 auto;
+
+      &::before {
+        left: 35%;
+        top: 80px;
+        width: 60px;
+      }
+
+      &::after {
+        left: 50%;
+        top: 50px;
+        height: 60px;
+      }
+  }
+
+  .catalog__order-button--more {
+    margin-top: 105px;
+  }
+}

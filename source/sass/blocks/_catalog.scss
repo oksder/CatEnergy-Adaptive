@@ -154,7 +154,9 @@
 }
 
 @media (min-width: $tablet-width) {
-
+  .catalog {
+    margin-bottom: 0;
+  }
   .catalog::before,
   .catalog::after {
     display: none;

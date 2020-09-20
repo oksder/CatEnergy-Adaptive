@@ -53,3 +53,22 @@
     width: 165px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .gift__image {
+    width: 85%;
+    margin: 25px;
+  }
+
+  .gift__icon {
+    top: 170px;
+    left: 122px;
+  }
+
+  .gift__description {
+    top: 280px;
+    text-align: center;
+    left: 70px;
+    width: 175px;
+  }
+}

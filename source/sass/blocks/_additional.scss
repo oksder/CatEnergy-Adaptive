@@ -193,10 +193,15 @@
     display: flex;
     justify-content: space-between;
 
-    &::before,
-    &::after {
+    &::before {
       display: block;
       top: 0px;
+      width: 803px;
+    }
+
+    &::after {
+      display: block;
+      bottom: -1px;
       width: 803px;
     }
   }

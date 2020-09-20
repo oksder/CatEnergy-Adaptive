@@ -137,3 +137,21 @@
     justify-content: space-between;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .additional__container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .additional__wrapper {
+    width: 875px;
+  }
+
+  .additional__title {
+    padding: 0 0 0 45px;
+    margin: 50px;
+    margin-left: -10px;
+  }
+}

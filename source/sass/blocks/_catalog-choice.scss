@@ -67,7 +67,6 @@
 }
 
 .catalog-choice__button {
-  position: relative;
   text-transform: uppercase;
   color: #000000;
 
@@ -78,16 +77,11 @@
 
 .catalog-choice__button::before {
   content: "";
-
   position: absolute;
-  left: 0px;
-  bottom: 35px;
-
-  width: 240px;
+  bottom: 55px;
+  width: 90%;
   height: 1px;
-
   z-index: -1;
-
   background-color: #d9d9d9;
 }
 
@@ -152,6 +146,8 @@
   .catalog-choice__button {
     font-size: 20px;
     line-height: 20px;
+    position: absolute;
+    bottom: 50px;
   }
 
   .catalog-choice__item-wrapper::before {
@@ -169,7 +165,7 @@
   .catalog-choice__arrow {
     position: absolute;
     right: -45px;
-    top: 10px;
+    top: 3px;
   }
 }
 

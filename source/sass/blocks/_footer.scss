@@ -38,10 +38,14 @@
 	z-index: 0;
 }
 
+.page-footer__logo-wrapper {
+  text-align: center;
+  margin: 0 auto;
+}
+
 .page-footer__logo {
   text-align: center;
-  margin-top: 40px;
-  margin: 40px 32%;
+  margin: 40px auto;
 
     &:hover {
       opacity: 0.8;
@@ -139,9 +143,9 @@
 
 @media (min-width: $tablet-width) {
   .page-footer__contacts {
-    width: 768px;
     margin: 0 auto;
     padding: 50px;
+    background-color: $bg-lightgrey;
   }
 
   .contacts__title {
@@ -163,8 +167,12 @@
     justify-content: space-between;
   }
 
+  .page-footer__logo-wrapper {
+    margin: 0;
+  }
+
   .page-footer__logo {
-    margin: 64px 28px;
+    margin: 64px auto;
   }
 
   .page-footer__social {
@@ -221,8 +229,7 @@
   }
 
   .page-footer__logo {
-    margin: 0;
-    padding-top: 20px;
+    margin: 20px auto;
   }
 
   .social__list {

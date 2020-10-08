@@ -138,12 +138,9 @@
 }
 
 @media (min-width: $tablet-width) {
-  .page-footer__wrapper {
+  .page-footer__contacts {
     width: 768px;
     margin: 0 auto;
-  }
-
-  .page-footer__contacts {
     padding: 50px;
   }
 
@@ -159,12 +156,9 @@
     line-height: 20px;
   }
 
-  .contacts__map-google {
-    width: 767px;
-    height: 400px;
-  }
-
   .page-footer__content-wrapper {
+    width: 768px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
   }
@@ -201,11 +195,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .page-footer {
-    width: 100%;
-  }
-
-  .page-footer__wrapper {
+  .page-footer__contacts-wrapper {
     position: relative;
     margin: 0 auto;
     width: 1330px;
@@ -222,12 +212,6 @@
 
   .contacts__location {
     padding-left: 50px;
-  }
-
-
-  .contacts__map-google {
-    width: 1330px;
-    height: 400px;
   }
 
   .page-footer__content-wrapper {

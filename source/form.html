@@ -35,104 +35,106 @@
   <main>
     <section class="program-form">
       <div class="program-form__wrapper">
-        <h2 class="program-form__title">Choose program for your cat</h2>
-        <p class="program-form__intro">Fill out the form and we will select a nutrition program for your cat</p>
-        <div class="program-form__container">
-          <form class="program-form__table" method="post" action="https://echo.htmlacademy.ru">
-            <p class="program-form__item">
-              <label class="program-form__label" for="name">Name*:</label>
-              <input class="program-form__input" type="text" id="name" name="name" placeholder="Bars">
-            </p>
-            <p class="program-form__item">
-              <label class="program-form__label" for="weight">Weight(Kg)*:</label>
-              <input class="program-form__input" type="text" id="weight" name="weight" placeholder="7">
-            </p>
-            <p class="program-form__item">
-              <label class="program-form__label" for="age">Age(Years)*:</label>
-              <input class="program-form__input" type="text" id="age" name="age" placeholder="7">
-            </p>
-          </form>
-          <div class="program-form__radio-wrapper">
-            <label class="program-form__radio">
-              <input class="program-form__radio-input" type="radio" checked="checked" name="radio">
-              Slimming
-              <span class="program-form__checkmark"></span>
-            </label>
-            <label class="program-form__radio">
-              <input class="program-form__radio-input" type="radio" name="radio">
-              Weight-gain
-              <span class="program-form__checkmark"></span>
-            </label>
-            <label class="program-form__radio">
-              <input class="program-form__radio-input" type="radio" name="radio">
-              I don't know (need your advice)
-              <span class="program-form__checkmark"></span>
-            </label>
+        <form method="post" action="https://echo.htmlacademy.ru">
+          <h2 class="program-form__title">Choose program for your cat</h2>
+          <p class="program-form__intro">Fill out the form and we will select a nutrition program for your cat</p>
+          <div class="program-form__container">
+            <div class="program-form__table">
+              <p class="program-form__item">
+                <label class="program-form__label" for="name">Name*:</label>
+                <input class="program-form__input" type="text" id="name" name="name" placeholder="Bars">
+              </p>
+              <p class="program-form__item">
+                <label class="program-form__label" for="weight">Weight(Kg)*:</label>
+                <input class="program-form__input" type="text" id="weight" name="weight" placeholder="7">
+              </p>
+              <p class="program-form__item">
+                <label class="program-form__label" for="age">Age(Years)*:</label>
+                <input class="program-form__input" type="text" id="age" name="age" placeholder="7">
+              </p>
+            </div>
+            <div class="program-form__radio-wrapper">
+              <label class="program-form__radio">
+                <input class="program-form__radio-input" type="radio" checked="checked" name="radio">
+                Slimming
+                <span class="program-form__checkmark"></span>
+              </label>
+              <label class="program-form__radio">
+                <input class="program-form__radio-input" type="radio" name="radio">
+                Weight-gain
+                <span class="program-form__checkmark"></span>
+              </label>
+              <label class="program-form__radio">
+                <input class="program-form__radio-input" type="radio" name="radio">
+                I don't know (need your advice)
+                <span class="program-form__checkmark"></span>
+              </label>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="form-contacts">
-      <div class="form-contacts__wrapper">
-      <h2 class="form-contacts__title">Contact details (Pet's owner)</h2>
-      <form class="form-contacts__form">
-        <p class="form-contacts__item">
-          <label for="mail">EMail*:</label>
-          <input class="form-contacts__input" type="email" id="mail" name="mail" placeholder="kuklachev@gmail.com">
-          <svg class="form-contacts__icon--mail" width="20" height="15">
-            <use xlink:href="#icon-mail"></use>
-          </svg>
-        </p>
-        <p class="form-contacts__item">
-          <label for="tel">Telephone*:</label>
-          <input class="form-contacts__input" type="tel" id="tel" name="tel" placeholder="8(960)900-60-90"><br><br>
-          <svg class="form-contacts__icon--phone" width="22" height="22">
-            <use xlink:href="#icon-phone"></use>
-          </svg>
-        </p>
-      </form>
-      </div>
-    </section>
-    <section class="comments">
-      <div class="comments__wrapper">
-        <h2 class="comments__title">Leave your comment</h2>
-        <label class="visually-hidden"> Leave comment about your cat</label>
-        <textarea class="comments__form" rows="6" cols="50" name="comment" form="comment-form" placeholder="Tell us about your cat's habits..."></textarea>
-      </div>
-    </section>
-    <section class="extra">
-      <div class="extra__wrapper">
-        <h2 class="extra__title">Additionally</h2>
-        <form class="extra__form">
-          <label class="extra__label">
-            <input class="extra__input" type="checkbox" checked="checked">
-            Sugar substitute
-            <span class="extra__checkmark"></span>
-          </label>
-          <label class="extra__label">
-            <input class="extra__input" type="checkbox">
-            Drinking water
-            <span class="extra__checkmark"></span>
-          </label>
-          <label class="extra__label">
-            <input class="extra__input" type="checkbox">
-            Milk
-            <span class="extra__checkmark"></span>
-          </label>
-          <label class="extra__label">
-            <input class="extra__input" type="checkbox">
-            Vitamins
-            <span class="extra__checkmark"></span>
-          </label>
-        </form>
-        <div class="extra__submit-wrapper">
-          <div class="extra__submit">
-            <buton class="extra__button" type="submit">Submit my form</button>
-          </div>
-          <small class="extra__info"><sup>*</sup> - required</small>
+      </section>
+      <section class="form-contacts">
+        <div class="form-contacts__wrapper">
+        <h2 class="form-contacts__title">Contact details (Pet's owner)</h2>
+        <div class="form-contacts__form">
+          <p class="form-contacts__item">
+            <label for="mail">EMail*:</label>
+            <input class="form-contacts__input" type="email" id="mail" name="mail" placeholder="kuklachev@gmail.com">
+            <svg class="form-contacts__icon--mail" width="20" height="15">
+              <use xlink:href="#icon-mail"></use>
+            </svg>
+          </p>
+          <p class="form-contacts__item">
+            <label for="tel">Telephone*:</label>
+            <input class="form-contacts__input" type="tel" id="tel" name="tel" placeholder="8(960)900-60-90"><br><br>
+            <svg class="form-contacts__icon--phone" width="22" height="22">
+              <use xlink:href="#icon-phone"></use>
+            </svg>
+          </p>
         </div>
-      </div>
-    </section>
+        </div>
+      </section>
+      <section class="comments">
+        <div class="comments__wrapper">
+          <h2 class="comments__title">Leave your comment</h2>
+          <label class="visually-hidden"> Leave comment about your cat</label>
+          <textarea class="comments__form" rows="6" cols="50" name="comment" form="comment-form" placeholder="Tell us about your cat's habits..."></textarea>
+        </div>
+      </section>
+      <section class="extra">
+        <div class="extra__wrapper">
+          <h2 class="extra__title">Additionally</h2>
+          <div class="extra__form">
+            <label class="extra__label">
+              <input class="extra__input" type="checkbox" checked="checked">
+              Sugar substitute
+              <span class="extra__checkmark"></span>
+            </label>
+            <label class="extra__label">
+              <input class="extra__input" type="checkbox">
+              Drinking water
+              <span class="extra__checkmark"></span>
+            </label>
+            <label class="extra__label">
+              <input class="extra__input" type="checkbox">
+              Milk
+              <span class="extra__checkmark"></span>
+            </label>
+            <label class="extra__label">
+              <input class="extra__input" type="checkbox">
+              Vitamins
+              <span class="extra__checkmark"></span>
+            </label>
+          </div>
+          <div class="extra__submit-wrapper">
+            <div class="extra__submit">
+              <buton class="extra__button" type="submit">Submit my form</button>
+            </div>
+            <small class="extra__info"><sup>*</sup> - required</small>
+          </div>
+        </div>
+      </section>
+    </form>
   </main>
   <footer class="page-footer">
     <div class="page-footer__wrapper">
